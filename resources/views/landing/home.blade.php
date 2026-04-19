@@ -132,54 +132,84 @@
             </div>
             
             <div class="row g-4">
-                <!-- Certificate in Business Management -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card h-100 border-0 shadow-sm card-hover" style="border-radius: 15px; overflow: hidden;">
-                        <div style="height: 200px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); display: flex; align-items: center; justify-content: center;">
-                            <i class="fas fa-briefcase fa-4x text-white opacity-75"></i>
-                        </div>
-                        <div class="card-body p-4">
-                            <span class="badge mb-2" style="background: #dbeafe; color: #1e3a8a;">Certificate</span>
-                            <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Business Management</h5>
-                            <p class="text-muted small mb-3">Learn fundamentals of business administration, marketing, and entrepreneurship.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="fw-bold" style="color: #f59e0b;">12 Months</span>
-                                <a href="#" class="btn btn-sm" style="background: #1e3a8a; color: white;">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Certificate in IT -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <!-- Pharmaceutical Sciences -->
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 border-0 shadow-sm card-hover" style="border-radius: 15px; overflow: hidden;">
                         <div style="height: 200px; background: linear-gradient(135deg, #059669 0%, #10b981 100%); display: flex; align-items: center; justify-content: center;">
-                            <i class="fas fa-laptop-code fa-4x text-white opacity-75"></i>
+                            <i class="fas fa-pills fa-4x text-white opacity-75"></i>
                         </div>
                         <div class="card-body p-4">
-                            <span class="badge mb-2" style="background: #d1fae5; color: #059669;">Certificate</span>
-                            <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Information Technology</h5>
-                            <p class="text-muted small mb-3">Learn programming, networking, web development, and software applications.</p>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge" style="background: #d1fae5; color: #059669;">NTA 4-6</span>
+                                <span class="badge bg-warning">3 Years</span>
+                            </div>
+                            <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Pharmaceutical Sciences</h5>
+                            <p class="text-muted small mb-3">Comprehensive training in pharmacy practice, pharmacology, pharmaceutics, and pharmaceutical chemistry. Prepares students for careers in hospital and community pharmacy.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="fw-bold" style="color: #f59e0b;">12 Months</span>
+                                <span class="fw-bold" style="color: #f59e0b;">TZS 1,800,000/yr</span>
                                 <a href="#" class="btn btn-sm" style="background: #1e3a8a; color: white;">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Diploma in Business Management -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <!-- Clinical Medicine -->
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 border-0 shadow-sm card-hover" style="border-radius: 15px; overflow: hidden;">
-                        <div style="height: 200px; background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%); display: flex; align-items: center; justify-content: center;">
-                            <i class="fas fa-chart-line fa-4x text-white opacity-75"></i>
+                        <div style="height: 200px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user-md fa-4x text-white opacity-75"></i>
                         </div>
                         <div class="card-body p-4">
-                            <span class="badge mb-2" style="background: #ede9fe; color: #7c3aed;">Diploma</span>
-                            <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Business Management</h5>
-                            <p class="text-muted small mb-3">Advanced studies in strategic management, finance, HR, and operations.</p>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge" style="background: #dbeafe; color: #1e3a8a;">NTA 4-6</span>
+                                <span class="badge bg-warning">3 Years</span>
+                            </div>
+                            <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Clinical Medicine</h5>
+                            <p class="text-muted small mb-3">Training in clinical diagnosis, patient care, medical procedures, and primary healthcare delivery. Prepares clinical officers for healthcare facilities.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="fw-bold" style="color: #f59e0b;">24 Months</span>
+                                <span class="fw-bold" style="color: #f59e0b;">TZS 1,900,000/yr</span>
+                                <a href="#" class="btn btn-sm" style="background: #1e3a8a; color: white;">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Nursing and Midwifery -->
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 border-0 shadow-sm card-hover" style="border-radius: 15px; overflow: hidden;">
+                        <div style="height: 200px; background: linear-gradient(135deg, #db2777 0%, #f472b6 100%); display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-heartbeat fa-4x text-white opacity-75"></i>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge" style="background: #fce7f3; color: #db2777;">NTA 4-6</span>
+                                <span class="badge bg-warning">3 Years</span>
+                            </div>
+                            <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Nursing and Midwifery</h5>
+                            <p class="text-muted small mb-3">Comprehensive nursing education including general nursing, midwifery, community health, and nursing management. Prepares professional nurses and midwives.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold" style="color: #f59e0b;">TZS 1,750,000/yr</span>
+                                <a href="#" class="btn btn-sm" style="background: #1e3a8a; color: white;">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Medical Laboratory Sciences -->
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card h-100 border-0 shadow-sm card-hover" style="border-radius: 15px; overflow: hidden;">
+                        <div style="height: 200px; background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%); display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-microscope fa-4x text-white opacity-75"></i>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge" style="background: #ede9fe; color: #7c3aed;">NTA 4-6</span>
+                                <span class="badge bg-warning">3 Years</span>
+                            </div>
+                            <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Medical Laboratory Sciences</h5>
+                            <p class="text-muted small mb-3">Training in medical laboratory techniques, diagnostic procedures, hematology, microbiology, and clinical chemistry. Prepares medical laboratory technicians.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold" style="color: #f59e0b;">TZS 1,850,000/yr</span>
                                 <a href="#" class="btn btn-sm" style="background: #1e3a8a; color: white;">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
