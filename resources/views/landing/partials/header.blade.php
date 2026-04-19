@@ -105,20 +105,6 @@
                 </ul>
             </li>
             
-            <!-- About Dropdown -->
-            <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-3" data-bs-toggle="dropdown" style="border-right: 1px solid rgba(255,255,255,0.2);">
-                    <span>About</span> <i class="fas fa-chevron-down small ms-1"></i>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark border-0 shadow-lg" style="background: #1e3a8a; min-width: 250px;">
-                    <li><a class="dropdown-item text-white py-2" href="#" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> About Us</a></li>
-                    <li><a class="dropdown-item text-white py-2" href="#" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Organizational Structure</a></li>
-                    <li><a class="dropdown-item text-white py-2" href="#" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> SACA Leadership</a></li>
-                    <li><a class="dropdown-item text-white py-2" href="#" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Governing Board</a></li>
-                    <li><a class="dropdown-item text-white py-2" href="#" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Management Staff</a></li>
-                </ul>
-            </li>
-            
             <!-- Academics Mega Menu -->
             <li class="nav-item dropdown dropdown-hover position-static">
                 <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-3" data-bs-toggle="dropdown" style="border-right: 1px solid rgba(255,255,255,0.2);">
@@ -158,9 +144,9 @@
             </li>
             
             <!-- Admission Dropdown -->
-            <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-3" data-bs-toggle="dropdown" style="border-right: 1px solid rgba(255,255,255,0.2);">
-                    <span>Admission</span> <i class="fas fa-chevron-down small ms-1"></i>
+            <li class="nav-item dropdown" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-4 d-flex align-items-center h-100" data-bs-toggle="dropdown" style="white-space: nowrap;">
+                    Admission <i class="fas fa-chevron-down small ms-2"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark border-0 shadow-lg" style="background: #1e3a8a; min-width: 250px;">
                     <li><a class="dropdown-item text-white py-2" href="#" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Programmes Offered</a></li>
@@ -172,9 +158,9 @@
             </li>
             
             <!-- Students Dropdown -->
-            <li class="nav-item dropdown dropdown-hover position-static">
-                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-3" data-bs-toggle="dropdown" style="border-right: 1px solid rgba(255,255,255,0.2);">
-                    <span>Students</span> <i class="fas fa-chevron-down small ms-1"></i>
+            <li class="nav-item dropdown dropdown-hover position-static" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-4 d-flex align-items-center h-100" data-bs-toggle="dropdown" style="white-space: nowrap;">
+                    Students <i class="fas fa-chevron-down small ms-2"></i>
                 </a>
                 <div class="dropdown-menu w-100 mt-0 border-0 shadow-lg" style="background: #1e3a8a; left: 0; right: 0;">
                     <div class="container py-4">
@@ -206,9 +192,9 @@
             </li>
             
             <!-- Staff Dropdown -->
-            <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-3" data-bs-toggle="dropdown" style="border-right: 1px solid rgba(255,255,255,0.2);">
-                    <span>Staff</span> <i class="fas fa-chevron-down small ms-1"></i>
+            <li class="nav-item dropdown" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-4 d-flex align-items-center h-100" data-bs-toggle="dropdown" style="white-space: nowrap;">
+                    Staff <i class="fas fa-chevron-down small ms-2"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark border-0 shadow-lg" style="background: #1e3a8a; min-width: 250px;">
                     <li><a class="dropdown-item text-white py-2" href="#" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Academic Staff</a></li>
@@ -219,16 +205,16 @@
             </li>
             
             <!-- News -->
-            <li class="nav-item">
-                <a class="nav-link text-white fw-medium py-3 px-3" href="#" style="border-right: 1px solid rgba(255,255,255,0.2);">
+            <li class="nav-item" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a class="nav-link text-white fw-medium py-3 px-4 d-flex align-items-center h-100" href="#" style="white-space: nowrap;">
                     News
                 </a>
             </li>
             
             <!-- Research Dropdown -->
-            <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-3" data-bs-toggle="dropdown" style="border-right: 1px solid rgba(255,255,255,0.2);">
-                    <span>Research</span> <i class="fas fa-chevron-down small ms-1"></i>
+            <li class="nav-item dropdown" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-4 d-flex align-items-center h-100" data-bs-toggle="dropdown" style="white-space: nowrap;">
+                    Research <i class="fas fa-chevron-down small ms-2"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark border-0 shadow-lg" style="background: #1e3a8a; min-width: 250px;">
                     <li><a class="dropdown-item text-white py-2" href="#" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Research Projects</a></li>
@@ -239,9 +225,9 @@
             </li>
             
             <!-- ICT Services Dropdown -->
-            <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-3" data-bs-toggle="dropdown" style="border-right: 1px solid rgba(255,255,255,0.2);">
-                    <span>ICT Services</span> <i class="fas fa-chevron-down small ms-1"></i>
+            <li class="nav-item dropdown" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-4 d-flex align-items-center h-100" data-bs-toggle="dropdown" style="white-space: nowrap;">
+                    ICT Services <i class="fas fa-chevron-down small ms-2"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark border-0 shadow-lg" style="background: #1e3a8a; min-width: 250px;">
                     <li><a class="dropdown-item text-white py-2" href="#" target="_blank" style="transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Electronic Payments</a></li>
@@ -252,8 +238,8 @@
             </li>
             
             <!-- Short Courses -->
-            <li class="nav-item">
-                <a class="nav-link text-warning fw-bold py-3 px-3" href="#" style="border-right: 1px solid rgba(255,255,255,0.2);">
+            <li class="nav-item" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a class="nav-link text-warning fw-bold py-3 px-4 d-flex align-items-center h-100" href="#" style="white-space: nowrap;">
                     <i class="fas fa-star me-1"></i> Short-Courses
                 </a>
             </li>
