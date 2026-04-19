@@ -11,11 +11,21 @@ use App\Http\Controllers\Alumni\DashboardController as AlumniDashboardController
 
 /*
 |--------------------------------------------------------------------------
+| Landing Page Routes (New Design)
+|--------------------------------------------------------------------------
+*/
+
+Route::get('/', function () {
+    return view('landing.home');
+})->name('landing.home');
+
+/*
+|--------------------------------------------------------------------------
 | Public Routes (No Authentication Required)
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', [PublicHomeController::class, 'index'])->name('public.home');
+Route::get('/public', [PublicHomeController::class, 'index'])->name('public.home');
 Route::get('/about', [PublicHomeController::class, 'about'])->name('public.about');
 Route::get('/programs', [PublicHomeController::class, 'programs'])->name('public.programs');
 Route::get('/programs/{program}', [PublicHomeController::class, 'programShow'])->name('public.program.show');
