@@ -14,16 +14,16 @@
                 <div class="mb-4">
                     <div class="d-flex align-items-center mb-3">
                         <div style="width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
-                            <i class="fas fa-graduation-cap fa-lg"></i>
+                            <i class="fas fa-user-md fa-lg"></i>
                         </div>
                         <div>
-                            <h5 class="mb-0 fw-bold">SACA</h5>
-                            <small class="opacity-75">St. Aggrey College of Arts</small>
+                            <h5 class="mb-0 fw-bold">SACHS</h5>
+                            <small class="opacity-75">St. Aggrey College of Health Sciences</small>
                         </div>
                     </div>
                     <p class="opacity-75 mb-4" style="line-height: 1.8;">
-                        Empowering minds and shaping futures through quality education in Mbeya, Tanzania. 
-                        Providing certificate and diploma programs since establishment.
+                        Excellence in Healthcare Education since 2000. Registered by NACTE with Registration No: REG/HAS/116. 
+                        Providing quality health sciences education in Mbeya, Tanzania.
                     </p>
                     <div class="d-flex gap-3">
                         <a href="#" class="social-icon" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; text-decoration: none; transition: all 0.3s ease;">
