@@ -449,4 +449,52 @@
             display: block;
         }
     }
+    
+    /* Sidebar Navigation Styles */
+    .sidebar-link {
+        transition: all 0.3s ease;
+    }
+    
+    .sidebar-link:hover {
+        background: rgba(255,255,255,0.1) !important;
+        padding-left: 1.5rem !important;
+    }
+    
+    .sidebar-link:active {
+        background: rgba(255,255,255,0.2) !important;
+    }
+    
+    /* Accordion in Sidebar */
+    .sidebar-nav .accordion-button::after {
+        filter: invert(1);
+    }
+    
+    .sidebar-nav .accordion-button:not(.collapsed) {
+        background: rgba(255,255,255,0.1) !important;
+    }
+    
+    .sidebar-nav .accordion-button:hover {
+        background: rgba(255,255,255,0.15) !important;
+    }
+    
+    /* Offcanvas Animation */
+    .offcanvas {
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    /* Mobile Header Compact */
+    @media (max-width: 991px) {
+        .gov-header {
+            padding: 8px 0;
+        }
+        
+        .logo-box {
+            width: 50px !important;
+            height: 50px !important;
+        }
+        
+        .logo-box i {
+            font-size: 1.5rem !important;
+        }
+    }
 </style>
