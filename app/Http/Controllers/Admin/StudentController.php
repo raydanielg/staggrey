@@ -7,6 +7,7 @@ use App\Models\Program;
 use App\Models\Student;
 use App\Models\User;
 use App\Models\Role;
+use App\Models\Setting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
