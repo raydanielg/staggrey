@@ -1,0 +1,363 @@
+FINAL COMPREHENSIVE TECHNICAL PROPOSAL
+For:
+The Principal & Governing Council
+ST. AGGREY COLLEGE OF ARTS (SACA)
+P.O. Box 2954,
+Mbeya, Tanzania.
+Prepared By:
+Zerixa Technologies
+
+Proposal Reference: SACA-WEB-2026-001
+Total Investment: 1,690,000 TZS (One Million Six Hundred Ninety Thousand Tanzanian Shillings Only)
+(Including: Full Website, VPS Hosting 12 Months, Domain 1 Year, All Modules, Alumni System, Application Forms, Student Management Panels, Maintenance, and Training)
+
+TABLE OF CONTENTS
+1.	Executive Summary
+2.	Understanding Your College’s Needs
+3.	Complete List of Features (Every Module, Every Panel)
+o	3.1 Public Front-End Features (What Everyone Sees)
+o	3.2 Student Panel Features
+o	3.3 Staff/Faculty Panel Features
+o	3.4 Alumni Panel Features
+o	3.5 Admin/Owner Panel Features
+o	3.6 Application & Admission Management Module
+o	3.7 Student Academic Management Module
+o	3.8 Financial Management Module (Fees)
+o	3.9 Communication & Notification Module
+o	3.10 Examination & Results Module
+o	3.11 Library Module (Digital)
+o	3.12 Hostel/Accommodation Module
+o	3.13 Graduation & Certification Module
+o	3.14 Alumni Donation & Engagement Module
+o	3.15 Technical & Security Features
+4.	Domain Name & VPS Hosting Specifications
+5.	The “Muoneano wa Mbele” (Front-End Preview Before Payment) – Workflow
+6.	Financial Breakdown (1.69M TZS)
+7.	Project Timeline
+8.	Post-Launch Support & Maintenance (12 Months)
+9.	Terms & Conditions
+10.	Acceptance Signature Page
+
+1. EXECUTIVE SUMMARY
+St. Aggrey College of Arts requires a complete, all-in-one digital ecosystem – not just a brochure website. This proposal delivers a powerful web-based system that manages:
+•	Public information & branding
+•	Student applications (online forms)
+•	Enrolled student records
+•	Fee payments & financial tracking
+•	Examinations & results
+•	Alumni network & donations
+•	Staff management
+•	Communication (email/notifications)
+The total cost is 1,690,000 TZS for full development + 12 months VPS hosting + 12 months maintenance + domain registration.
+You will see a live front-end preview (muoneano wa mbele) before paying even one shilling.
+
+2. UNDERSTANDING YOUR COLLEGE’S NEEDS
+St. Aggrey College of Arts (P.O. Box 2954, Mbeya) needs a system that:
+•	Attracts new students through online applications.
+•	Manages current students (attendance, grades, fees).
+•	Keeps alumni connected and engaged.
+•	Gives staff an easy way to enter results and communicate.
+•	Runs on a fast, secure VPS (not cheap shared hosting).
+This proposal fulfills all of those needs and more.
+
+3. COMPLETE LIST OF FEATURES (EVERY MODULE & PANEL)
+3.1 PUBLIC FRONT-END FEATURES (What visitors see before login)
+These are visible to anyone visiting the website.
+#	Feature Name	Description
+1	Responsive Design	Works perfectly on phones, tablets, laptops, and desktops.
+2	Hero Image Slider	5+ slides showing campus, students, graduation, events.
+3	About Us Page	History, mission, vision, core values, leadership team.
+4	Academic Programs Page	All certificates, diplomas, short courses – with detailed syllabus download.
+5	Online Application Portal (Public)	New applicants can fill and submit admission forms online.
+6	Fees Structure Page	Clear table showing tuition, accommodation, and other fees per program.
+7	Student Result Checker (Public Exam Results)	Former students can check semester results using index number.
+8	News & Announcements	Live scrolling ticker + full news archive.
+9	Event Calendar	Academic calendar, registration deadlines, exam dates, holidays.
+10	Photo Gallery	Albums of campus life, sports, events, graduation.
+11	Video Gallery	YouTube/Vimeo embeds of college tours and testimonies.
+12	Faculty & Staff Directory	Photos, qualifications, email, and office hours of each lecturer.
+13	Alumni Registration Page	Former students can register to join the alumni network.
+14	Alumni Success Stories	Featured stories of notable alumni (text + photos).
+15	Donation/Giving Page	Accept alumni and public donations via mobile money (Lipa Na Mpesa, Tigo Pesa, Airtel Money) – integration details provided.
+16	FAQ Section	Common questions about admissions, fees, transfers, hostels.
+17	Blog/Articles	For college news, educational content, career advice.
+18	Contact Us Page	Google Map, physical address (P.O. Box 2954), phone, email, working contact form.
+19	WhatsApp Floating Button	Direct chat with admissions office.
+20	Social Media Links	Facebook, Instagram, Twitter/X, LinkedIn.
+21	Student/Parent Login Button	Redirects to respective panels.
+22	Staff Login Button	Separate entry for faculty and admin.
+23	Alumni Login Button	Access to alumni portal.
+24	Download Center	Download prospectus, application forms, fee schedules, past exam papers (public).
+25	Accreditation & Certifications Page	Display all college accreditations and awards.
+
+3.2 STUDENT PANEL FEATURES (After login)
+Each enrolled student gets a private account.
+#	Feature Name	Description
+26	Student Dashboard	Overview: profile completion, fee balance, upcoming exams, latest notice.
+27	Profile Management	Update personal details, phone number, emergency contact, photo.
+28	Academic Records	View enrolled courses, credits, GPA, CGPA for each semester.
+29	Exam Results	Download semester result slips (PDF).
+30	Fee Statement	View fee history, payments made, outstanding balance.
+31	Online Fee Payment	Integrate with mobile money (Tigo Pesa, M-Pesa, Airtel Money) – generate payment reference.
+32	Class Timetable	Weekly schedule with room numbers and lecturer names.
+33	Assignment Submission	Upload assignments (PDF, Word) – lecturer can view and grade.
+34	Attendance Record	See percentage of classes attended per course.
+35	Leave/Excuse Request	Apply for study leave or absence – approved by HOD.
+36	Complaint/Suggestion Box	Submit anonymous or named complaints to administration.
+37	Library Access	Search library catalog, check availability, request book reservation.
+38	Hostel Allocation	View hostel room assigned, roommate details, report hostel issues.
+39	Clearance Request	Request final clearance before graduation (library, fees, hostel).
+40	Download Documents	Admission letter, ID card (digital), transcript request form.
+41	Change Password & Security	Two-factor authentication optional.
+42	Notification Center	Receive alerts about fee deadlines, exam dates, news.
+________________________________________
+3.3 STAFF / FACULTY PANEL FEATURES
+For lecturers, HODs, finance officers, and admin staff.
+#	Feature Name	Description
+43	Staff Dashboard	Summary: classes taught, pending assignments, student queries.
+44	Course Management	Upload course outlines, lecture notes, reading materials.
+45	Assignment Management	Post assignments, set deadlines, receive student submissions, grade online.
+46	Exam Management	Create exam schedules, upload question papers, enter marks per student.
+47	Grade Entry System	Enter and edit student grades – automatic GPA calculation.
+48	Student Attendance Tracking	Mark attendance for each class (online or batch upload).
+49	Student Search & Profile View	View any enrolled student’s profile (limited to academic data).
+50	Communication	Send messages/notifications to specific students, classes, or whole college.
+51	Fee Verification (Finance Staff)	Check student fee balance, record cash payments, generate receipts.
+52	Admission Management (Admissions Staff)	Review online applications, accept/reject, issue admission letters.
+53	Hostel Management (Dean of Students)	Assign rooms, manage maintenance requests, track occupancy.
+54	Library Management (Librarian)	Add/remove books, issue/return books, manage overdue fines.
+55	Report Generation	Generate PDF/Excel reports: class lists, grade sheets, fee collection summary.
+56	Event & News Posting	Create and publish announcements, events, news articles.
+57	Staff Leave Management	Apply for leave, view leave balance, approve subordinate leave (for HODs).
+58	Payroll View (Finance Only)	Staff can view payslips (admin only).
+
+3.4 ALUMNI PANEL FEATURES
+Former students stay connected and contribute.
+#	Feature Name	Description
+59	Alumni Registration & Login	Register using old student ID or certificate number.
+60	Alumni Profile	Update employment status, job title, company, location, contact info.
+61	Alumni Directory	Search and connect with fellow alumni (opt-in privacy).
+62	Donation Portal	Make one-time or recurring donations to college development projects.
+63	Fundraising Campaigns	View specific campaigns (e.g., library construction, scholarship fund).
+64	Event Invitations	RSVP for alumni homecoming, networking events, reunions.
+65	Job Board	Post job openings (for employers) or view jobs (for job-seeking alumni).
+66	Mentor Students	Apply to become a mentor for current students.
+67	Request Academic Transcript	Submit request for official transcript – payment link.
+68	Share Success Story	Submit a story for publication on the alumni success page.
+69	Download Alumni ID Card	Digital alumni card for discounts (if applicable).
+70	Newsletters	Subscribe to alumni email newsletter.
+
+3.5 ADMIN / OWNER PANEL FEATURES (Super Admin)
+Full control over every module.
+#	Feature Name	Description
+71	Full System Dashboard	Real-time stats: total students, applications, fee collection, alumni.
+72	User Management	Add/edit/delete students, staff, alumni, parents. Assign roles and permissions.
+73	Academic Program Management	Create/edit programs, courses, credit hours, fees.
+74	Academic Year & Semester Setup	Define current academic year, semesters, registration periods.
+75	Online Application Form Builder	Create and modify admission forms (fields: personal, education, program choice).
+76	Application Review Interface	Review all applications, change status (pending, accepted, rejected, waitlist).
+77	Admission Letter Generator	Auto-generate PDF admission letters with college letterhead.
+78	Student Enrollment (Bulk)	Import students via Excel spreadsheet.
+79	Fee Structure Management	Set fees per program per semester, add penalties, discounts, scholarships.
+80	Payment Gateway Settings	Configure mobile money APIs (Tigo, M-Pesa, Airtel).
+81	Examination Configuration	Set grading scales (A=80-100, etc.), exam periods, result publication dates.
+82	Result Publication Control	Release results to student panel by program or semester.
+83	Transcript Generator	Official transcript PDF with college seal.
+84	Hostel Setup	Create hostels, rooms, bed spaces, pricing, allocation rules.
+85	Library Catalog	Add/edit book entries, manage checkouts, fines.
+86	Alumni Management	Approve alumni registrations, reset passwords, send bulk emails.
+87	Donation Tracking	Record donations, issue thank-you certificates (PDF).
+88	Notification System	Send SMS or email to selected users (students, staff, alumni).
+89	Backup Manager	Automated weekly backups to off-server location.
+90	System Logs	Track all admin actions (who changed what, when).
+91	Website Content Editor	Edit all public pages (About, Programs, FAQ, etc.) without coding.
+92	SEO Settings	Meta tags, keywords, social media previews for better Google ranking.
+93	Security Settings	Firewall rules, login attempt limits, IP blocking.
+
+3.6 APPLICATION & ADMISSION MANAGEMENT MODULE (Detailed)
+This is a full online application system.
+•	Prospective student fills form with: full name, date of birth, phone, email, previous school, program of interest, attachment of certificate (photo upload).
+•	Auto-generated application number.
+•	Admin can review, comment, accept/reject.
+•	If accepted, system auto-sends admission email/SMS with fee payment instructions.
+•	After payment of registration fee (tracked), student is automatically enrolled and given student login credentials.
+•	All application data exported to Excel.
+
+3.7 STUDENT ACADEMIC MANAGEMENT MODULE (Detailed)
+•	Course registration at start of semester (student selects from available courses).
+•	Lecturer enters marks (continuous assessment + final exam).
+•	System automatically calculates total marks, grade points, GPA, CGPA.
+•	Student can view results online and print result slip.
+•	Failed courses automatically flagged for retake registration.
+•	Transcript request and generation.
+
+3.8 FINANCIAL MANAGEMENT MODULE (FEES)
+•	Each student has a fee ledger.
+•	Fee structure: tuition, activity fee, library fee, hostel fee, caution deposit.
+•	Payments recorded (cash via finance staff or online via mobile money).
+•	Automatic receipt generation (PDF + SMS notification).
+•	Outstanding balance report.
+•	Automatic blocking of exam result viewing if fee balance exceeds threshold (configurable).
+
+3.9 COMMUNICATION & NOTIFICATION MODULE
+•	Send email to all students, staff, or alumni.
+•	Send SMS (if budget allows – optional SMS credit pack not included in 1.69M).
+•	In-app notification bell (web).
+•	Push notification via WhatsApp Business API (config instructions provided).
+
+3.10 EXAMINATION & RESULTS MODULE
+•	Create exam timetable (public view).
+•	Lecturer enters marks via spreadsheet upload or online form.
+•	System prevents changes after results are published (unless admin override).
+•	Result slip: college name, student photo, semester results, GPA, signature line.
+•	Class ranking report.
+
+3.11 LIBRARY MODULE (Digital)
+•	Students search by book title, author, or subject.
+•	See availability (in-library, borrowed, under repair).
+•	Request book reservation.
+•	Librarian issues/returns books, calculates fine (e.g., 500 TZS/day).
+•	Student sees borrowing history.
+
+3.12 HOSTEL / ACCOMMODATION MODULE
+•	Students apply for hostel during registration.
+•	Dean of Students allocates room (manual or auto based on preferences).
+•	Room allocation visible in student panel.
+•	Student can report maintenance issue (e.g., broken light, leaking tap).
+•	Hostel fee added automatically to fee ledger.
+
+3.13 GRADUATION & CERTIFICATION MODULE
+•	Identify graduating students based on completed courses and cleared fees.
+•	Graduation eligibility checklist (admin view).
+•	Generate graduation list.
+•	Issue digital certificate (PDF with QR code for verification).
+•	Alumni account auto-created upon graduation (with option to opt out).
+
+3.14 ALUMNI DONATION & ENGAGEMENT MODULE
+•	Alumni can donate via mobile money.
+•	Donation tracking per campaign.
+•	Thank you message with tax-deductible receipt (PDF).
+•	Alumni event creation (homecoming, webinar, networking).
+•	RSVP and attendance tracking.
+3.15 TECHNICAL & SECURITY FEATURES
+#	Feature
+94	VPS Hosting (4GB RAM, 2 vCPU, 80GB SSD) – no shared hosting.
+95	Free SSL Certificate (HTTPS).
+96	Daily Automatic Backups (kept for 30 days).
+97	DDoS Protection (basic).
+98	Malware Scanner (weekly).
+99	Login Attempt Limiter (prevents brute force).
+100	Database Encryption (sensitive data like passwords).
+101	GDPR & Data Privacy Compliance (students can request data export/deletion).
+102	Role-Based Access Control (RBAC).
+103	Activity Logs (every action recorded).
+104	CDN Integration (Cloudflare – faster loading).
+105	Responsive Admin Panel (works on phone).
+
+4. DOMAIN NAME & VPS HOSTING SPECIFICATIONS
+Domain Name
+•	One professional domain (e.g., www.staggrey.ac.tz or www.sacambeya.ac.tz or www.staggreyartscollege.ac.tz).
+•	Registered in St. Aggrey College’s name – you own it.
+•	First year registration included.
+VPS Hosting (12 Months) – High Performance
+Specification	Detail
+Provider	DigitalOcean / Vultr / Contabo (reliable)
+CPU	2 vCores
+RAM	4 GB
+Storage	80 GB NVMe SSD
+Bandwidth	4 TB / month
+Location	South Africa (lowest latency for Tanzania)
+Uptime Guarantee	99.9%
+Control Panel	aaPanel or CloudPanel (free, professional)
+OS	Ubuntu 22.04 LTS
+No other students or colleges will share your server – you have dedicated resources.
+
+5. THE “MUONEANO WA MBELE” (FRONT-END PREVIEW BEFORE PAYMENT)
+Because you requested to see the design first, here is the secure, fair workflow:
+Step 1 (2 days): You send me your logo, photos (20+), text content (programs, history, fees), and preferred domain name.
+Step 2 (7 days): I build a live, clickable front-end preview on my temporary server. This includes:
+•	Homepage
+•	About Us
+•	Academic Programs (sample)
+•	Online Application Form (public)
+•	Student Login page design
+•	Alumni Registration page design
+•	Contact page
+You will receive a link (e.g., http://preview.yourcollege.xyz). You can browse it on your phone, laptop, tablet.
+Step 3 (3 days): You request unlimited revisions (colors, layout, images, text) until you are 100% satisfied.
+Step 4 (Payment): ONLY AFTER you approve the visual design, you pay the full 1,690,000 TZS.
+Step 5 (21 days): I build all remaining modules (student panel, staff panel, alumni panel, admin panel, results, fees, library, hostel, exams, etc.) and deploy to your final VPS + domain.
+Step 6 (3 days): Training for your staff (video call or on-site if in Mbeya – travel not included). Launch.
+6. FINANCIAL BREAKDOWN – 1,690,000 TZS
+Item	Cost (TZS)
+A. Full Software Development (All 105+ features, all panels, all modules)	1,000,000
+B. VPS Hosting (12 months) – 4GB RAM, 80GB SSD	400,000
+C. Domain Registration (.ac.tz or .co.tz) – 1 year
+60,000
+D. SSL Certificate (free)	0
+E. Maintenance & Technical Support (12 months) – includes security updates, backups, bug fixes, 24/7 WhatsApp support	150,000
+F. Content Upload (up to 100 pages / 500 images / 10 staff profiles / 20 programs)	50,000
+G. One-Time Server Setup & Optimization (firewall, CDN, email server config)	30,000
+TOTAL (All inclusive, no VAT unless applicable)	1,690,000 TZS
+Note: SMS credits for bulk SMS are not included – you can purchase separately (~50 TZS per SMS). Mobile money payment gateway may have transaction fees charged by the provider (e.g., 1% per transaction) – these are not included.
+
+7. PROJECT TIMELINE (Total: 33 working days after payment)
+Phase	Days
+1. Collect content & requirements	2
+2. Build front-end preview (muoneano wa mbele)	7
+3. Client review & revisions	3
+4. Payment (after preview approval)	1
+5. Full development (all modules + panels + VPS)	21
+6. Testing, training, launch	3
+Total	37 days (including review)
+
+8. POST-LAUNCH SUPPORT & MAINTENANCE (12 MONTHS)
+You receive:
+•	Weekly automatic backups (stored off-server).
+•	Security updates (patch vulnerabilities).
+•	Bug fixes (if any feature stops working).
+•	Plugin/core updates (if using CMS).
+•	24/7 emergency support (response within 6 hours via WhatsApp/email).
+•	Quarterly performance optimization (speed test, database cleanup).
+•	Free minor changes (e.g., add a new program, update staff photo – up to 5 minor changes per month).
+•	Training video (recorded).
+Not included: Major new features (e.g., adding a new module like “Online Examination” with auto-grading). Those would be quoted separately.
+
+9. TERMS & CONDITIONS
+1.	Ownership: After full payment, the source code, database, and all intellectual property belong to St. Aggrey College of Arts. I retain no rights.
+2.	Domain Ownership: The domain is registered under the college’s name and contact details. You will receive login credentials to the domain registrar.
+3.	VPS Access: You will receive full root/SSH access to the VPS if requested.
+4.	Payment Terms: 100% due after you approve the front-end preview. No upfront payment required before preview.
+5.	Refund Policy: If I fail to deliver the live preview within 10 days of receiving content, you may cancel without penalty. If I fail to deliver the final system within 45 days after payment, you get 100% refund.
+6.	Content Responsibility: You must provide accurate, non-copyright-infringing text, images, and logos. I am not liable for third-party claims.
+7.	Hosting Renewal: After 12 months, VPS hosting renewal is 400,000 TZS/year (optional – you can move to any host). Domain renewal is ~60,000 TZS/year.
+8.	Governing Law: This proposal is governed by the laws of Tanzania. Any disputes shall be resolved in Mbeya.
+
+10. ACCEPTANCE SIGNATURE PAGE
+By signing below, you acknowledge that you have read, understood, and agreed to all the features, terms, and the total investment of 1,690,000 TZS (One Million Six Hundred Ninety Thousand Tanzanian Shillings Only).
+You also confirm that you understand the workflow: front-end preview (muoneano wa mbele) is provided first, and payment is made only after your approval of the design.
+
+For St. Aggrey College of Arts (SACA), Mbeya
+Principal’s Name: _________________________
+Signature: _________________________
+Date: _________________________
+Official Stamp (if any): _________________________
+
+For the Developer/Service Provider
+Full Name: Ezra Daniel
+Signature: 
+Date: _________________________
+Phone: +255 613 976 254
+Email: info@zerixa.co.tz
+
+WHAT HAPPENS NEXT?
+1.	Sign and return this proposal (you can scan/photograph the signed page).
+2.	Send your content (logo, photos, text for about/history/programs, fee structure, student application form fields).
+3.	Within 7 days, you receive the muoneano wa mbele (live preview link).
+4.	Approve or request changes (unlimited revisions).
+5.	Pay 1,690,000 TZS (via bank transfer, mobile money, or cash – receipt provided).
+6.	21 days later – your full college management system is live on your own domain and VPS.
+7.	Training session – your staff learns how to manage students, results, fees, alumni.
+
+This proposal is valid for 60 days from the date above.
+
