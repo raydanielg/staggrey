@@ -20,9 +20,9 @@
             </div>
             <div class="col-md-4 text-md-end">
                 <span class="small text-white" style="opacity: 0.9;">
-                    <i class="fas fa-phone me-1"></i> +255 000 000 000
+                    <i class="fas fa-phone me-1"></i> 0717327632 / 0755660616
                     <span class="mx-2">|</span>
-                    <i class="fas fa-envelope me-1"></i> info@saca.ac.tz
+                    <i class="fas fa-envelope me-1"></i> staggreyhealth@gmail.com
                 </span>
             </div>
         </div>
