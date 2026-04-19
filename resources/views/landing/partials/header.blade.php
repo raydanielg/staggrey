@@ -285,26 +285,145 @@
         </ul>
     </div>
     
-    <!-- Mobile Navigation -->
-    <div class="collapse d-lg-none" id="mobileNav" style="background: #1e3a8a;">
-        <div class="container py-3">
-            <ul class="list-unstyled mb-0">
-                <li class="mb-2"><a href="{{ route('landing.home') }}" class="text-white text-decoration-none d-block py-2"><i class="fas fa-home me-2"></i> Home</a></li>
-                <li class="mb-2"><a href="#" class="text-white text-decoration-none d-block py-2"><i class="fas fa-info-circle me-2"></i> About Us</a></li>
-                <li class="mb-2"><a href="#" class="text-white text-decoration-none d-block py-2"><i class="fas fa-book me-2"></i> Academics</a></li>
-                <li class="mb-2"><a href="#" class="text-white text-decoration-none d-block py-2"><i class="fas fa-file-alt me-2"></i> Admission</a></li>
-                <li class="mb-2"><a href="#" class="text-white text-decoration-none d-block py-2"><i class="fas fa-users me-2"></i> Students</a></li>
-                <li class="mb-2"><a href="#" class="text-white text-decoration-none d-block py-2"><i class="fas fa-chalkboard-teacher me-2"></i> Staff</a></li>
-                <li class="mb-2"><a href="#" class="text-white text-decoration-none d-block py-2"><i class="fas fa-newspaper me-2"></i> News</a></li>
-                <li class="mb-2"><a href="#" class="text-white text-decoration-none d-block py-2"><i class="fas fa-flask me-2"></i> Research</a></li>
-                <li class="mb-2"><a href="#" class="text-white text-decoration-none d-block py-2"><i class="fas fa-laptop me-2"></i> ICT Services</a></li>
-                <li class="mt-3 pt-3 border-top border-secondary">
-                    <a href="{{ route('login') }}" class="btn btn-warning w-100 fw-bold"><i class="fas fa-sign-in-alt me-2"></i> LOGIN</a>
-                </li>
-            </ul>
+    </nav>
+
+<!-- Mobile Sidebar Offcanvas -->
+<div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="mobileSidebar" aria-labelledby="mobileSidebarLabel" style="width: 300px; background: linear-gradient(180deg, #1e3a8a 0%, #1e40af 100%);">
+    <div class="offcanvas-header border-bottom border-secondary">
+        <div class="d-flex align-items-center">
+            <img src="{{ asset('emblem.png') }}" alt="Tanzania" style="height: 40px; margin-right: 10px;">
+            <div>
+                <h5 class="offcanvas-title text-white mb-0" id="mobileSidebarLabel" style="font-size: 0.9rem;">SACHS</h5>
+                <small class="text-warning" style="font-size: 0.65rem;">St. Aggrey College of Health Sciences</small>
+            </div>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+        <div class="sidebar-nav">
+            <!-- Main Menu -->
+            <a href="{{ route('landing.home') }}" class="sidebar-link d-flex align-items-center text-decoration-none text-white py-3 px-3 border-bottom border-secondary" style="transition: all 0.3s;">
+                <i class="fas fa-home me-3" style="width: 20px;"></i>
+                <span>Home</span>
+            </a>
+            
+            <!-- About -->
+            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white py-3 px-3 border-bottom border-secondary" style="transition: all 0.3s;">
+                <i class="fas fa-info-circle me-3" style="width: 20px;"></i>
+                <span>About Us</span>
+            </a>
+            
+            <!-- Academics -->
+            <div class="accordion accordion-flush" id="academicsAccordion">
+                <div class="accordion-item bg-transparent border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-transparent text-white py-3 px-3 border-bottom border-secondary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#academicsMenu" style="transition: all 0.3s;">
+                            <i class="fas fa-book me-3" style="width: 20px;"></i>
+                            <span>Academics</span>
+                        </button>
+                    </h2>
+                    <div id="academicsMenu" class="accordion-collapse collapse" data-bs-parent="#academicsAccordion">
+                        <div class="accordion-body p-0 ps-4">
+                            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white-50 py-2 px-3" style="font-size: 0.85rem;">
+                                <i class="fas fa-pills me-2 small"></i> Pharmaceutical Sciences
+                            </a>
+                            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white-50 py-2 px-3" style="font-size: 0.85rem;">
+                                <i class="fas fa-user-md me-2 small"></i> Clinical Medicine
+                            </a>
+                            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white-50 py-2 px-3" style="font-size: 0.85rem;">
+                                <i class="fas fa-heartbeat me-2 small"></i> Nursing & Midwifery
+                            </a>
+                            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white-50 py-2 px-3" style="font-size: 0.85rem;">
+                                <i class="fas fa-microscope me-2 small"></i> Medical Laboratory
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Admission -->
+            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white py-3 px-3 border-bottom border-secondary" style="transition: all 0.3s;">
+                <i class="fas fa-file-alt me-3" style="width: 20px;"></i>
+                <span>Admission</span>
+            </a>
+            
+            <!-- Students -->
+            <div class="accordion accordion-flush" id="studentsAccordion">
+                <div class="accordion-item bg-transparent border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-transparent text-white py-3 px-3 border-bottom border-secondary shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#studentsMenu" style="transition: all 0.3s;">
+                            <i class="fas fa-users me-3" style="width: 20px;"></i>
+                            <span>Students</span>
+                        </button>
+                    </h2>
+                    <div id="studentsMenu" class="accordion-collapse collapse" data-bs-parent="#studentsAccordion">
+                        <div class="accordion-body p-0 ps-4">
+                            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white-50 py-2 px-3" style="font-size: 0.85rem;">
+                                <i class="fas fa-angle-right me-2 small"></i> Dean of Students
+                            </a>
+                            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white-50 py-2 px-3" style="font-size: 0.85rem;">
+                                <i class="fas fa-angle-right me-2 small"></i> Student Services
+                            </a>
+                            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white-50 py-2 px-3" style="font-size: 0.85rem;">
+                                <i class="fas fa-angle-right me-2 small"></i> Library
+                            </a>
+                            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white-50 py-2 px-3" style="font-size: 0.85rem;">
+                                <i class="fas fa-angle-right me-2 small"></i> Health Centre
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Staff -->
+            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white py-3 px-3 border-bottom border-secondary" style="transition: all 0.3s;">
+                <i class="fas fa-chalkboard-teacher me-3" style="width: 20px;"></i>
+                <span>Staff</span>
+            </a>
+            
+            <!-- News -->
+            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white py-3 px-3 border-bottom border-secondary" style="transition: all 0.3s;">
+                <i class="fas fa-newspaper me-3" style="width: 20px;"></i>
+                <span>News</span>
+            </a>
+            
+            <!-- Research -->
+            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white py-3 px-3 border-bottom border-secondary" style="transition: all 0.3s;">
+                <i class="fas fa-flask me-3" style="width: 20px;"></i>
+                <span>Research</span>
+            </a>
+            
+            <!-- ICT Services -->
+            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-white py-3 px-3 border-bottom border-secondary" style="transition: all 0.3s;">
+                <i class="fas fa-laptop me-3" style="width: 20px;"></i>
+                <span>ICT Services</span>
+            </a>
+            
+            <!-- Short Courses -->
+            <a href="#" class="sidebar-link d-flex align-items-center text-decoration-none text-warning py-3 px-3 border-bottom border-secondary" style="transition: all 0.3s;">
+                <i class="fas fa-star me-3" style="width: 20px;"></i>
+                <span class="fw-bold">Short-Courses</span>
+            </a>
+            
+            <!-- Contact Info -->
+            <div class="mt-4 px-3">
+                <h6 class="text-warning mb-3" style="font-size: 0.8rem;">Contact Us</h6>
+                <div class="text-white-50" style="font-size: 0.75rem;">
+                    <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i> P.O. Box 2954, Mbeya</p>
+                    <p class="mb-1"><i class="fas fa-phone me-2"></i> 0717327632</p>
+                    <p class="mb-1"><i class="fas fa-envelope me-2"></i> staggreyhealth@gmail.com</p>
+                </div>
+            </div>
+            
+            <!-- Login Button -->
+            <div class="mt-4 px-3 pb-4">
+                <a href="{{ route('login') }}" class="btn btn-warning w-100 fw-bold py-2">
+                    <i class="fas fa-sign-in-alt me-2"></i> LOGIN
+                </a>
+            </div>
         </div>
     </div>
-</nav>
+</div>
 
 <style>
     .dropdown-hover:hover > .dropdown-menu {
