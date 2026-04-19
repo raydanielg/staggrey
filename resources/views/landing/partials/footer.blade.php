@@ -76,36 +76,79 @@
                 </ul>
             </div>
             
-            <!-- Academic Links -->
-            <div class="col-lg-2 col-md-6">
+            <!-- Useful Links -->
+            <div class="col-lg-4 col-md-6">
                 <h6 class="fw-bold mb-4 position-relative pb-2" style="border-bottom: 2px solid rgba(245, 158, 11, 0.5); display: inline-block;">
-                    ACADEMICS
+                    USEFUL LINKS
                 </h6>
                 <ul class="list-unstyled">
                     <li class="mb-2">
-                        <a href="#" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
-                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Academic Calendar
+                        <a href="https://www.nacte.go.tz" target="_blank" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
+                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> The National Council for Technical and Vocational Education and Training
                         </a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
-                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Timetables
+                        <a href="https://www.moe.go.tz" target="_blank" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
+                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Ministry of Education, Science and Technology
                         </a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
-                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Examinations
+                        <a href="https://www.tcu.go.tz" target="_blank" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
+                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Tanzania Commission for Universities
                         </a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
-                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Results
+                        <a href="https://www.heslb.go.tz" target="_blank" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
+                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Higher Education Students' Loans Board
                         </a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
-                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Library
+                        <a href="https://www.costech.or.tz" target="_blank" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
+                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Tanzania Commission for Science and Technology
                         </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="https://www.tamisemi.go.tz" target="_blank" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
+                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> National e-Procurement System of Tanzania
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="https://www.immigration.go.tz" target="_blank" class="text-white text-decoration-none opacity-75 hover-opacity d-flex align-items-center">
+                            <i class="fas fa-chevron-right fa-xs me-2" style="color: #f59e0b;"></i> Mfumo wa Vibali vya Kusafiri Nje ya Nchi
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Visitors Counter -->
+            <div class="col-lg-2 col-md-6">
+                <h6 class="fw-bold mb-4 position-relative pb-2" style="border-bottom: 2px solid rgba(245, 158, 11, 0.5); display: inline-block;">
+                    VISITORS COUNTER
+                </h6>
+                <ul class="list-unstyled" style="font-size: 0.85rem;">
+                    <li class="mb-2 d-flex align-items-center text-white">
+                        <i class="fas fa-bolt me-2" style="color: #f59e0b; width: 16px;"></i>
+                        <span>Today : {{ \App\Models\Visitor::today() }}</span>
+                    </li>
+                    <li class="mb-2 d-flex align-items-center text-white">
+                        <i class="fas fa-chart-line me-2" style="color: #f59e0b; width: 16px;"></i>
+                        <span>Yesterday : {{ \App\Models\Visitor::yesterday() }}</span>
+                    </li>
+                    <li class="mb-2 d-flex align-items-center text-white">
+                        <i class="fas fa-calendar-week me-2" style="color: #f59e0b; width: 16px;"></i>
+                        <span>This Week : {{ \App\Models\Visitor::thisWeek() }}</span>
+                    </li>
+                    <li class="mb-2 d-flex align-items-center text-white">
+                        <i class="fas fa-calendar-alt me-2" style="color: #f59e0b; width: 16px;"></i>
+                        <span>This Month : {{ \App\Models\Visitor::thisMonth() }}</span>
+                    </li>
+                    <li class="mb-2 d-flex align-items-center text-white">
+                        <i class="fas fa-calendar me-2" style="color: #f59e0b; width: 16px;"></i>
+                        <span>This Year: {{ \App\Models\Visitor::thisYear() }}</span>
+                    </li>
+                    <li class="mb-2 d-flex align-items-center text-white">
+                        <i class="fas fa-chart-bar me-2" style="color: #f59e0b; width: 16px;"></i>
+                        <span>Total visit : {{ \App\Models\Visitor::total() }}</span>
                     </li>
                 </ul>
             </div>
