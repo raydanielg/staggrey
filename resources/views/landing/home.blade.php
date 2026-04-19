@@ -127,7 +127,7 @@
     <!-- News, Announcements & Documents Section -->
     @include('landing.partials.news')
 
-    <!-- Programs Section -->
+    <!-- Ready to Start / Call to Action -->
     <section class="py-5" style="background: white;">
         <div class="container py-5">
             <div class="text-center" data-aos="fade-up">
