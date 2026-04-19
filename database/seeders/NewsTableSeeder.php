@@ -15,59 +15,73 @@ class NewsTableSeeder extends Seeder
             $q->where('slug', 'admin');
         })->first();
 
-        $newsItems = [
+        $news = [
             [
-                'title' => 'New Academic Year 2024/2025 Registration Now Open',
-                'content' => 'We are pleased to announce that registration for the 2024/2025 academic year is now open. All new and continuing students are required to complete their registration by the deadline. Early registration comes with benefits including priority course selection.',
-                'excerpt' => 'Registration for the 2024/2025 academic year is now open. Complete your registration early to secure your place.',
-                'category' => 'announcements',
-                'is_featured' => true,
+                'title' => 'SACHS Kufunguliwa kwa Chuo kwa Mwaka wa Masomo 2025/2026',
+                'slug' => 'sachs-kufunguliwa-2025-2026',
+                'content' => 'Imeelezwa kuwa Serikali imefanya uwekezaji mkubwa kupitia mradi wa EASTRIP ili kukifanya St. Aggrey College of Health Sciences (SACHS), kuwa kitovu cha mafunzo ya afya kwa ukanda wa Afrika Mashariki na Afrika kwa ujumla. Akizungumza Januari 6, 2026 wakati wa ziara yake katika chuo hicho, Naibu Waziri wa Afya alisema kuwa utekelezaji wa mradi wa EASTRIP utakifanya SACHS kuwa kitovu cha mafunzo ya vitendo katika sekta ya afya.',
+                'excerpt' => 'SACHS kuwa kitovu cha mafunzo ya afya Afrika Mashariki kupitia mradi wa EASTRIP.',
+                'image' => 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=300&fit=crop',
+                'category' => 'announcement',
                 'is_published' => true,
-                'published_at' => now(),
+                'published_at' => '2025-11-13',
             ],
             [
-                'title' => 'Congratulations to Our Graduating Class of 2024',
-                'content' => 'St. Aggrey College of Arts proudly celebrates the graduation of over 200 students who successfully completed their certificate and diploma programs. The graduation ceremony was held at the Mbeya grounds with distinguished guests in attendance.',
-                'excerpt' => 'Over 200 students graduated from various programs in our 2024 graduation ceremony.',
-                'category' => 'achievements',
-                'is_featured' => true,
+                'title' => 'Provisional Graduation List for 2024/2025 Academic Year',
+                'slug' => 'graduation-list-2024-2025',
+                'content' => 'The Provisional Graduation List for the 2024/2025 Academic Year has been released. All graduands are requested to verify their information and report any discrepancies to the Academic Office within 7 days.',
+                'excerpt' => 'Provisional graduation list released for 2024/2025 academic year.',
+                'image' => 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop',
+                'category' => 'announcement',
                 'is_published' => true,
-                'published_at' => now()->subDays(7),
+                'published_at' => '2025-10-22',
             ],
             [
-                'title' => 'New Library Digital Resources Available',
-                'content' => 'The college library has expanded its digital collection with over 500 new e-books and online journals. Students can now access these resources remotely through the student portal. Training sessions on using the digital library will be conducted next week.',
-                'excerpt' => 'Access over 500 new e-books and digital journals through our expanded library resources.',
-                'category' => 'academic',
-                'is_featured' => false,
+                'title' => 'List of Applicants Selected for Admission - Third Round',
+                'slug' => 'admission-list-third-round',
+                'content' => 'The list of applicants selected for admission into various diploma programmes for the academic year 2025/2026 - Third Round is now available. Selected applicants are required to report to the college within 14 days.',
+                'excerpt' => 'Third round admission list for 2025/2026 academic year released.',
+                'image' => 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop',
+                'category' => 'announcement',
                 'is_published' => true,
-                'published_at' => now()->subDays(3),
+                'published_at' => '2025-10-21',
             ],
             [
-                'title' => 'Industry Partnership with Local Businesses',
-                'content' => 'SACA has signed partnership agreements with several local businesses to provide internship opportunities for our students. This initiative aims to bridge the gap between academic learning and industry practice.',
-                'excerpt' => 'New partnerships with local businesses to provide internship opportunities for students.',
+                'title' => 'Jinsi ya Kufanya Usajili na Malipo ya Ada',
+                'slug' => 'usajili-na-malipo-2025',
+                'content' => 'Wanafunzi wote waliopokea nafasi za kusoma katika chuo cha SACHS kwa mwaka wa kwanza 2025/2026 watakiwa kufanya usajili na kulipa ada kufuatia taratibu zilizowekwa. Malipo yote yanapaswa kufanyika kupitia benki zilizoidhinishwa.',
+                'excerpt' => 'Maelekezo ya usajili na malipo ya ada kwa wanafunzi wa mwaka wa kwanza.',
+                'image' => 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop',
+                'category' => 'announcement',
+                'is_published' => true,
+                'published_at' => '2025-10-18',
+            ],
+            [
+                'title' => 'SACHS Yapongezwa kwa Ujenzi wa Maabara ya Kisasa',
+                'slug' => 'sachs-maabara-kisasa',
+                'content' => 'St. Aggrey College of Health Sciences imepokea pongezi kutoka kwa Wizara ya Afya kwa ujenzi wa maabara ya kisasa za kufundishia. Maabara haya yatatoa fursa kwa wanafunzi kujifunza kwa vitendo katika mazingira ya hali ya juu.',
+                'excerpt' => 'SACHS yapongezwa kwa ujenzi wa maabara za kisasa za kufundishia.',
+                'image' => 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=300&fit=crop',
                 'category' => 'general',
-                'is_featured' => false,
                 'is_published' => true,
-                'published_at' => now()->subDays(5),
+                'published_at' => '2025-08-21',
             ],
             [
-                'title' => 'Upcoming Cultural Week 2024',
-                'content' => 'Get ready for our annual Cultural Week celebration featuring traditional dances, music performances, fashion shows, and food exhibitions. The event will showcase the diverse cultural heritage of our student community.',
-                'excerpt' => 'Annual Cultural Week featuring dances, music, fashion, and food exhibitions.',
-                'category' => 'events',
-                'is_featured' => true,
+                'title' => 'Admission Open for Diploma in Pharmaceutical Sciences',
+                'slug' => 'admission-pharmaceutical',
+                'content' => 'Applications are now open for the Diploma in Pharmaceutical Sciences (NTA 4-6). The program prepares students for careers in hospital and community pharmacy with comprehensive training in pharmacy practice.',
+                'excerpt' => 'Applications open for Pharmaceutical Sciences diploma program NTA 4-6.',
+                'image' => 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=300&fit=crop',
+                'category' => 'announcement',
                 'is_published' => true,
-                'published_at' => now()->subDays(2),
+                'published_at' => '2025-01-10',
             ],
         ];
 
-        foreach ($newsItems as $news) {
-            $slug = Str::slug($news['title']);
+        foreach ($news as $newsItem) {
             News::firstOrCreate(
-                ['slug' => $slug],
-                array_merge($news, [
+                ['slug' => $newsItem['slug']],
+                array_merge($newsItem, [
                     'author_id' => $admin ? $admin->id : 1,
                 ])
             );
