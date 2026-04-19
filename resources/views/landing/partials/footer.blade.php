@@ -147,7 +147,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6 text-center text-md-start">
                     <small class="opacity-75">
-                        © {{ date('Y') }} St. Aggrey College of Arts. All Rights Reserved.
+                        © {{ date('Y') }} St. Aggrey College of Health Sciences (REG/HAS/116). All Rights Reserved.
                     </small>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
