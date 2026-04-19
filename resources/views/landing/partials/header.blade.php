@@ -109,18 +109,18 @@
                             <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
                                 <div class="list-group list-group-flush">
                                     <h6 class="text-warning mb-3 px-2 border-bottom border-secondary pb-2">Academic Departments</h6>
-                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Business Studies Department</a>
-                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Information Technology Department</a>
-                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Accounting & Finance Department</a>
-                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Human Resource Department</a>
-                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Library & Information Science</a>
+                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Pharmaceutical Sciences</a>
+                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Clinical Medicine</a>
+                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Nursing & Midwifery</a>
+                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Medical Laboratory Sciences</a>
+                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Basic Sciences</a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
                                 <div class="list-group list-group-flush">
-                                    <h6 class="text-warning mb-3 px-2 border-bottom border-secondary pb-2">SACA Centres</h6>
-                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Entrepreneurship Centre</a>
-                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Career Development Centre</a>
+                                    <h6 class="text-warning mb-3 px-2 border-bottom border-secondary pb-2">SACHS Centres</h6>
+                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Clinical Skills Centre</a>
+                                    <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Medical Laboratory Centre</a>
                                     <a href="#" class="list-group-item px-2 py-2 border-0 text-white" style="background: transparent; transition: all 0.3s;"><i class="fas fa-angle-right me-2 small"></i> Research & Innovation Centre</a>
                                 </div>
                             </div>
