@@ -1,79 +1,111 @@
-<!-- Top Bar -->
-<div class="top-bar" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 8px 0;">
+<!-- Top Bar - Hidden on mobile, visible on tablet/desktop -->
+<div class="top-bar d-none d-md-block" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 6px 0;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-8">
-                <div class="d-flex flex-wrap gap-4 small text-white">
-                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; transition: opacity 0.3s;">
+                <div class="d-flex flex-wrap gap-3 small text-white">
+                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; font-size: 0.75rem;">
                         <i class="fas fa-calendar-alt me-1"></i> Academic Calendar
                     </a>
-                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; transition: opacity 0.3s;">
+                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; font-size: 0.75rem;">
                         <i class="fas fa-file-alt me-1"></i> Admissions
                     </a>
-                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; transition: opacity 0.3s;">
+                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; font-size: 0.75rem;">
                         <i class="fas fa-comments me-1"></i> Feedback
                     </a>
-                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; transition: opacity 0.3s;">
+                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; font-size: 0.75rem;">
                         <i class="fas fa-globe me-1"></i> e-Services
                     </a>
                 </div>
             </div>
             <div class="col-md-4 text-md-end">
-                <span class="small text-white" style="opacity: 0.9;">
-                    <i class="fas fa-phone me-1"></i> 0717327632 / 0755660616
-                    <span class="mx-2">|</span>
-                    <i class="fas fa-envelope me-1"></i> staggreyhealth@gmail.com
+                <span class="small text-white" style="opacity: 0.9; font-size: 0.75rem;">
+                    <i class="fas fa-phone me-1"></i> 0717327632
                 </span>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Government Header Section - Clean Layout -->
-<div class="gov-header" style="background: #ffffff; border-bottom: 4px solid #f59e0b;">
-    <div class="container py-3">
+<!-- Mobile Top Bar - Compact -->
+<div class="d-md-none" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 4px 0;">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <span class="text-white" style="font-size: 0.7rem;">
+                <i class="fas fa-phone me-1"></i> 0717327632
+            </span>
+            <span class="text-white" style="font-size: 0.7rem;">
+                <i class="fas fa-envelope me-1"></i> staggreyhealth@gmail.com
+            </span>
+        </div>
+    </div>
+</div>
+
+<!-- Government Header - Responsive -->
+<div class="gov-header" style="background: #ffffff; border-bottom: 3px solid #f59e0b;">
+    <div class="container py-2 py-md-3">
         <div class="row align-items-center justify-content-between">
             
+            <!-- Mobile: Hamburger + Compact Logo -->
+            <div class="col-12 d-lg-none mb-2">
+                <div class="d-flex align-items-center justify-content-between">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-link text-decoration-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar" aria-controls="mobileSidebar" style="color: #1e3a8a;">
+                        <i class="fas fa-bars fa-lg"></i>
+                    </button>
+                    
+                    <!-- Mobile Compact Title -->
+                    <div class="text-center flex-grow-1 px-2">
+                        <div style="color: #dc2626; font-weight: 700; font-size: 0.65rem; letter-spacing: 1px;">TANZANIA</div>
+                        <div style="color: #1e3a8a; font-weight: 700; font-size: 0.8rem;">SACHS</div>
+                        <div style="color: #6b7280; font-size: 0.6rem;">REG/HAS/116</div>
+                    </div>
+                    
+                    <!-- Mobile Emblem -->
+                    <img src="{{ asset('emblem.png') }}" alt="Tanzania" style="height: 45px; width: auto;">
+                </div>
+            </div>
+            
+            <!-- Desktop: Full Header -->
             <!-- Left: SACHS Logo -->
-            <div class="col-lg-2 col-md-3 col-sm-4 text-center text-md-start mb-2 mb-md-0">
+            <div class="col-lg-2 col-md-3 d-none d-lg-block text-center text-md-start">
                 <a href="{{ route('landing.home') }}" class="text-decoration-none d-inline-block">
                     <div class="d-flex flex-column align-items-center align-items-md-start">
-                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 16px rgba(30, 58, 138, 0.3);">
-                            <i class="fas fa-user-md text-white" style="font-size: 2.5rem;"></i>
+                        <div class="logo-box" style="width: 70px; height: 70px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 12px rgba(30, 58, 138, 0.3);">
+                            <i class="fas fa-user-md text-white" style="font-size: 2rem;"></i>
                         </div>
                         <div class="mt-2 text-center text-md-start">
-                            <h5 class="mb-0 fw-bold" style="color: #1e3a8a; font-size: 1.3rem; letter-spacing: 1px;">SACHS</h5>
-                            <small class="text-muted" style="font-size: 0.7rem;">St. Aggrey College</small>
+                            <h5 class="mb-0 fw-bold" style="color: #1e3a8a; font-size: 1.1rem; letter-spacing: 1px;">SACHS</h5>
+                            <small class="text-muted" style="font-size: 0.65rem;">St. Aggrey College</small>
                         </div>
                     </div>
                 </a>
             </div>
             
             <!-- Center: Government Title -->
-            <div class="col-lg-7 col-md-6 col-sm-12 text-center mb-2 mb-md-0">
-                <div class="gov-title" style="line-height: 1.4;">
-                    <div style="color: #dc2626; font-weight: 700; font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase;">
+            <div class="col-lg-7 col-md-6 d-none d-lg-block text-center">
+                <div class="gov-title" style="line-height: 1.3;">
+                    <div style="color: #dc2626; font-weight: 700; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase;">
                         UNITED REPUBLIC OF TANZANIA
                     </div>
-                    <div style="color: #4b5563; font-weight: 600; font-size: 0.85rem; margin-top: 2px;">
+                    <div style="color: #4b5563; font-weight: 600; font-size: 0.75rem;">
                         Ministry of Health
                     </div>
-                    <div style="color: #1e3a8a; font-weight: 800; font-size: 1.3rem; margin-top: 8px; letter-spacing: 0.5px;">
+                    <div style="color: #1e3a8a; font-weight: 800; font-size: 1.1rem; margin-top: 4px; letter-spacing: 0.5px;">
                         ST. AGGREY COLLEGE OF HEALTH SCIENCES
                     </div>
-                    <div style="color: #6b7280; font-size: 0.75rem; margin-top: 5px;">
-                        <span style="color: #f59e0b; font-weight: 600;">Registration No: REG/HAS/116</span> | P.O. Box 2954, Mbeya - Tanzania
+                    <div style="color: #6b7280; font-size: 0.7rem; margin-top: 3px;">
+                        <span style="color: #f59e0b; font-weight: 600;">Registration No: REG/HAS/116</span> | P.O. Box 2954, Mbeya
                     </div>
                 </div>
             </div>
             
             <!-- Right: Coat of Arms -->
-            <div class="col-lg-2 col-md-3 col-sm-4 text-center text-md-end">
+            <div class="col-lg-2 col-md-3 d-none d-lg-block text-center text-md-end">
                 <div class="d-flex flex-column align-items-center align-items-md-end">
                     <img src="{{ asset('emblem.png') }}" 
                          alt="Tanzania Coat of Arms" 
-                         style="height: 100px; width: auto; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));">
-                    <small class="mt-1 text-muted" style="font-size: 0.65rem;">Tanzania Emblem</small>
+                         style="height: 85px; width: auto; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));">
                 </div>
             </div>
             
