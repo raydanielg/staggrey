@@ -21,7 +21,7 @@ class NewsTableSeeder extends Seeder
                 'slug' => 'sachs-kufunguliwa-2025-2026',
                 'content' => 'Imeelezwa kuwa Serikali imefanya uwekezaji mkubwa kupitia mradi wa EASTRIP ili kukifanya St. Aggrey College of Health Sciences (SACHS), kuwa kitovu cha mafunzo ya afya kwa ukanda wa Afrika Mashariki na Afrika kwa ujumla. Akizungumza Januari 6, 2026 wakati wa ziara yake katika chuo hicho, Naibu Waziri wa Afya alisema kuwa utekelezaji wa mradi wa EASTRIP utakifanya SACHS kuwa kitovu cha mafunzo ya vitendo katika sekta ya afya.',
                 'excerpt' => 'SACHS kuwa kitovu cha mafunzo ya afya Afrika Mashariki kupitia mradi wa EASTRIP.',
-                'image' => 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=300&fit=crop',
+                'featured_image' => 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=300&fit=crop',
                 'category' => 'announcements',
                 'is_published' => true,
                 'published_at' => '2025-11-13',
