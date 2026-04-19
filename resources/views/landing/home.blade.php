@@ -121,6 +121,9 @@
         </div>
     </section>
 
+    <!-- Message from Rector Section -->
+    @include('landing.partials.message')
+
     <!-- Programs Section -->
     <section class="py-5" style="background: white;">
         <div class="container py-5">
