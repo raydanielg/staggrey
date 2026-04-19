@@ -332,16 +332,10 @@
 </nav>
 
 <!-- Mobile Sidebar Offcanvas -->
-<div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="mobileSidebar" aria-labelledby="mobileSidebarLabel" style="width: 300px; background: linear-gradient(180deg, #1e3a8a 0%, #1e40af 100%);">
-    <div class="offcanvas-header border-bottom border-secondary">
-        <div class="d-flex align-items-center">
-            <img src="{{ asset('emblem.png') }}" alt="Tanzania" style="height: 40px; margin-right: 10px;">
-            <div>
-                <h5 class="offcanvas-title text-white mb-0" id="mobileSidebarLabel" style="font-size: 0.9rem;">SACHS</h5>
-                <small class="text-warning" style="font-size: 0.65rem;">St. Aggrey College of Health Sciences</small>
-            </div>
-        </div>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+<div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="mobileSidebar" aria-labelledby="mobileSidebarLabel" style="width: 280px; background: linear-gradient(180deg, #1e3a8a 0%, #1e40af 100%);">
+    <!-- Close Button Only -->
+    <div class="offcanvas-header border-bottom border-secondary py-2">
+        <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body p-0">
         <div class="sidebar-nav">
