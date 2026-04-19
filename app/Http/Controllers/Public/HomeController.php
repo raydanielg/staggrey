@@ -58,13 +58,21 @@ class HomeController extends Controller
     public function programs()
     {
         $programs = Program::where('status', 'active')->get();
-        return view('public.programs', compact('programs'));
+        return view('public.programs.index', compact('programs'));
     }
 
     public function programShow(Program $program)
     {
         $program->load('courses');
-        return view('public.program-show', compact('program'));
+        
+        // Get related programs (same level, excluding current)
+        $relatedPrograms = Program::where('status', 'active')
+            ->where('id', '!=', $program->id)
+            ->where('level', $program->level)
+            ->take(5)
+            ->get();
+            
+        return view('public.programs.show', compact('program', 'relatedPrograms'));
     }
 
     public function staff()
