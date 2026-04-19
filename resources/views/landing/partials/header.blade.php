@@ -536,4 +536,14 @@
             font-size: 1.5rem !important;
         }
     }
+    
+    /* Top Bar Hover Effects */
+    .top-bar a:hover {
+        opacity: 1 !important;
+        transform: translateY(-1px);
+    }
+    
+    .top-bar a:active {
+        transform: translateY(0);
+    }
 </style>
