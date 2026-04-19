@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             StaffTableSeeder::class,
             NewsTableSeeder::class,
             EventsTableSeeder::class,
+            VisitorsTableSeeder::class,
         ]);
     }
 }
