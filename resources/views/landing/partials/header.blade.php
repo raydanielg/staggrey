@@ -56,32 +56,19 @@
     </div>
 </div>
 
-<!-- Top Bar - Mobile (Very Compact) -->
-<div class="d-md-none" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 6px 0;">
+<!-- Top Bar - Mobile (Blue Bar with Phone & Login) -->
+<div class="d-md-none" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 10px 0;">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center">
-            <!-- Left: Quick Links -->
-            <div class="d-flex gap-2">
-                <a href="#" class="text-white text-decoration-none" style="font-size: 0.7rem;">
-                    <i class="fas fa-calendar-alt"></i>
-                </a>
-                <a href="#" class="text-white text-decoration-none" style="font-size: 0.7rem;">
-                    <i class="fas fa-file-alt"></i>
-                </a>
-                <a href="#" class="text-white text-decoration-none" style="font-size: 0.7rem;">
-                    <i class="fas fa-globe"></i>
-                </a>
-            </div>
-            
-            <!-- Center: Phone -->
-            <a href="tel:0717327632" class="text-white text-decoration-none d-flex align-items-center" style="font-size: 0.75rem;">
-                <i class="fas fa-phone-alt me-1 text-warning"></i>
+            <!-- Left: Phone Number -->
+            <a href="tel:0717327632" class="text-white text-decoration-none d-flex align-items-center" style="font-size: 0.85rem; font-weight: 500;">
+                <i class="fas fa-phone-alt me-2"></i>
                 <span>0717327632</span>
             </a>
             
-            <!-- Right: Email -->
-            <a href="mailto:staggreyhealth@gmail.com" class="text-white text-decoration-none" style="font-size: 0.7rem;">
-                <i class="fas fa-envelope text-warning"></i>
+            <!-- Right: Login Button -->
+            <a href="{{ route('login') }}" class="btn btn-sm text-white fw-bold d-flex align-items-center" style="background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3); font-size: 0.8rem; padding: 6px 12px; border-radius: 20px;">
+                <i class="fas fa-sign-in-alt me-2"></i> LOGIN
             </a>
         </div>
     </div>
