@@ -118,15 +118,19 @@
                 <ul class="list-unstyled">
                     <li class="mb-3 d-flex">
                         <i class="fas fa-map-marker-alt mt-1 me-3" style="color: #f59e0b;"></i>
-                        <span class="opacity-75">P.O. Box 2954, Mbeya<br>United Republic of Tanzania</span>
+                        <span class="opacity-75">P. O. BOX 2954 MBEYA<br>United Republic of Tanzania</span>
                     </li>
                     <li class="mb-3 d-flex">
-                        <i class="fas fa-phone mt-1 me-3" style="color: #f59e0b;"></i>
-                        <span class="opacity-75">+255 000 000 000</span>
+                        <i class="fas fa-phone-alt mt-1 me-3" style="color: #f59e0b;"></i>
+                        <span class="opacity-75">Fixed: 0717327632<br>Mobile: 0755660616 / 0712509263</span>
                     </li>
                     <li class="mb-3 d-flex">
                         <i class="fas fa-envelope mt-1 me-3" style="color: #f59e0b;"></i>
-                        <span class="opacity-75">info@saca.ac.tz</span>
+                        <span class="opacity-75">staggreyhealth@gmail.com</span>
+                    </li>
+                    <li class="mb-3 d-flex">
+                        <i class="fas fa-globe mt-1 me-3" style="color: #f59e0b;"></i>
+                        <span class="opacity-75">www.staggreyhealth.ac.tz</span>
                     </li>
                     <li class="mb-3 d-flex">
                         <i class="fas fa-clock mt-1 me-3" style="color: #f59e0b;"></i>
