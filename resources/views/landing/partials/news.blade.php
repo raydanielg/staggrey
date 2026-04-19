@@ -14,7 +14,7 @@
                         <div class="d-flex mb-3 pb-3 border-bottom" style="border-color: #e2e8f0 !important;">
                             <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=100&h=80&fit=crop" alt="Post" class="rounded" style="width: 80px; height: 60px; object-fit: cover; margin-right: 12px;">
                             <div>
-                                <a href="#" class="text-decoration-none" style="color: #1e3a8a; font-size: 0.8rem; font-weight: 500; line-height: 1.4;">
+                                <a href="{{ route('landing.news.details') }}" class="text-decoration-none" style="color: #1e3a8a; font-size: 0.8rem; font-weight: 500; line-height: 1.4;">
                                     SACHS: New Clinical Skills Laboratory Launched for Practical Training
                                 </a>
                                 <div class="mt-1" style="font-size: 0.7rem; color: #6b7280;">
