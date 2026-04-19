@@ -81,22 +81,28 @@
     </div>
 </div>
 
-<!-- Main Navigation - ATC Style -->
+<!-- Main Navigation - ATC Style Full Width -->
 <nav id="navbar" class="navbar navbar-expand-lg" style="background: linear-gradient(90deg, #1e3a8a 0%, #1e40af 100%); padding: 0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
-    <div class="container d-flex align-items-center justify-content-center">
-        <ul class="navbar-nav align-items-center" style="list-style: none; margin: 0; padding: 0; display: flex;">
-            <!-- Logo -->
-            <li class="nav-item me-3" style="border-right: 1px solid rgba(255,255,255,0.2);">
-                <a href="{{ route('landing.home') }}" class="d-flex align-items-center text-decoration-none px-3 py-2">
-                    <img src="https://ui-avatars.com/api/?name=SACA&background=1e3a8a&color=fff&size=40&rounded=true" alt="SACA Logo" style="height: 40px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.3);">
+    <div class="container-fluid px-0">
+        <ul class="navbar-nav align-items-stretch flex-wrap" style="list-style: none; margin: 0; padding: 0; display: flex; width: 100%;">
+            <!-- Home -->
+            <li class="nav-item" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a class="nav-link text-white fw-medium py-3 px-4 d-flex align-items-center h-100" href="{{ route('landing.home') }}" style="transition: all 0.3s; white-space: nowrap;">
+                    <i class="fas fa-home me-1"></i> Home
                 </a>
             </li>
             
-            <!-- Home -->
-            <li class="nav-item">
-                <a class="nav-link text-white fw-medium py-3 px-3" href="{{ route('landing.home') }}" style="border-right: 1px solid rgba(255,255,255,0.2); transition: all 0.3s;">
-                    <i class="fas fa-home me-1"></i> Home
+            <!-- About -->
+            <li class="nav-item dropdown" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-4 d-flex align-items-center h-100" data-bs-toggle="dropdown" style="white-space: nowrap;">
+                    About <i class="fas fa-chevron-down small ms-2"></i>
                 </a>
+                <ul class="dropdown-menu dropdown-menu-dark border-0 shadow-lg" style="background: #1e3a8a; min-width: 250px;">
+                    <li><a class="dropdown-item text-white py-2" href="#"><i class="fas fa-angle-right me-2 small"></i> About Us</a></li>
+                    <li><a class="dropdown-item text-white py-2" href="#"><i class="fas fa-angle-right me-2 small"></i> Organizational Structure</a></li>
+                    <li><a class="dropdown-item text-white py-2" href="#"><i class="fas fa-angle-right me-2 small"></i> SACHS Leadership</a></li>
+                    <li><a class="dropdown-item text-white py-2" href="#"><i class="fas fa-angle-right me-2 small"></i> Governing Board</a></li>
+                </ul>
             </li>
             
             <!-- About Dropdown -->
