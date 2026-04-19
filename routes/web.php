@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('landing.home');
 })->name('landing.home');
 
+Route::get('/news-details', function () {
+    return view('landing.news-details');
+})->name('landing.news.details');
+
 /*
 |--------------------------------------------------------------------------
 | Public Routes (No Authentication Required)
