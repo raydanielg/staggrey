@@ -106,9 +106,9 @@
             </li>
             
             <!-- Academics Mega Menu -->
-            <li class="nav-item dropdown dropdown-hover position-static">
-                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-3" data-bs-toggle="dropdown" style="border-right: 1px solid rgba(255,255,255,0.2);">
-                    <span>Academics</span> <i class="fas fa-chevron-down small ms-1"></i>
+            <li class="nav-item dropdown dropdown-hover position-static" style="border-right: 1px solid rgba(255,255,255,0.15);">
+                <a href="#" class="nav-link dropdown-toggle text-white fw-medium py-3 px-4 d-flex align-items-center h-100" data-bs-toggle="dropdown" style="white-space: nowrap;">
+                    Academics <i class="fas fa-chevron-down small ms-2"></i>
                 </a>
                 <div class="dropdown-menu w-100 mt-0 mega-menu border-0 shadow-lg" style="background: #1e3a8a; left: 0; right: 0;">
                     <div class="container py-4">
