@@ -1,42 +1,88 @@
-<!-- Top Bar - Hidden on mobile, visible on tablet/desktop -->
-<div class="top-bar d-none d-md-block" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 6px 0;">
+<!-- Top Bar - Desktop -->
+<div class="top-bar d-none d-lg-block" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 8px 0;">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-8">
-                <div class="d-flex flex-wrap gap-3 small text-white">
-                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; font-size: 0.75rem;">
-                        <i class="fas fa-calendar-alt me-1"></i> Academic Calendar
+            <div class="col-lg-8">
+                <div class="d-flex flex-wrap gap-4">
+                    <a href="#" class="text-white text-decoration-none d-flex align-items-center" style="opacity: 0.95; font-size: 0.8rem; transition: all 0.3s;">
+                        <i class="fas fa-calendar-alt me-2"></i> Academic Calendar
                     </a>
-                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; font-size: 0.75rem;">
-                        <i class="fas fa-file-alt me-1"></i> Admissions
+                    <a href="#" class="text-white text-decoration-none d-flex align-items-center" style="opacity: 0.95; font-size: 0.8rem; transition: all 0.3s;">
+                        <i class="fas fa-file-alt me-2"></i> Admissions
                     </a>
-                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; font-size: 0.75rem;">
-                        <i class="fas fa-comments me-1"></i> Feedback
+                    <a href="#" class="text-white text-decoration-none d-flex align-items-center" style="opacity: 0.95; font-size: 0.8rem; transition: all 0.3s;">
+                        <i class="fas fa-comments me-2"></i> Feedback
                     </a>
-                    <a href="#" class="text-white text-decoration-none" style="opacity: 0.9; font-size: 0.75rem;">
-                        <i class="fas fa-globe me-1"></i> e-Services
+                    <a href="#" class="text-white text-decoration-none d-flex align-items-center" style="opacity: 0.95; font-size: 0.8rem; transition: all 0.3s;">
+                        <i class="fas fa-globe me-2"></i> e-Services
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 text-md-end">
-                <span class="small text-white" style="opacity: 0.9; font-size: 0.75rem;">
-                    <i class="fas fa-phone me-1"></i> 0717327632
-                </span>
+            <div class="col-lg-4 text-lg-end">
+                <div class="d-flex justify-content-lg-end gap-3">
+                    <a href="tel:0717327632" class="text-white text-decoration-none d-flex align-items-center" style="opacity: 0.95; font-size: 0.8rem; transition: all 0.3s;">
+                        <i class="fas fa-phone-alt me-2 text-warning"></i> 0717327632
+                    </a>
+                    <a href="mailto:staggreyhealth@gmail.com" class="text-white text-decoration-none d-flex align-items-center" style="opacity: 0.95; font-size: 0.8rem; transition: all 0.3s;">
+                        <i class="fas fa-envelope me-2 text-warning"></i> staggreyhealth@gmail.com
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Mobile Top Bar - Compact -->
-<div class="d-md-none" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 4px 0;">
+<!-- Top Bar - Tablet -->
+<div class="d-none d-md-block d-lg-none" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 6px 0;">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center">
-            <span class="text-white" style="font-size: 0.7rem;">
-                <i class="fas fa-phone me-1"></i> 0717327632
-            </span>
-            <span class="text-white" style="font-size: 0.7rem;">
-                <i class="fas fa-envelope me-1"></i> staggreyhealth@gmail.com
-            </span>
+            <div class="d-flex gap-3">
+                <a href="#" class="text-white text-decoration-none" style="font-size: 0.75rem;">
+                    <i class="fas fa-calendar-alt"></i> Calendar
+                </a>
+                <a href="#" class="text-white text-decoration-none" style="font-size: 0.75rem;">
+                    <i class="fas fa-file-alt"></i> Admissions
+                </a>
+            </div>
+            <div class="d-flex gap-3">
+                <a href="tel:0717327632" class="text-white text-decoration-none" style="font-size: 0.75rem;">
+                    <i class="fas fa-phone-alt text-warning"></i> 0717327632
+                </a>
+                <a href="mailto:staggreyhealth@gmail.com" class="text-white text-decoration-none" style="font-size: 0.75rem;">
+                    <i class="fas fa-envelope text-warning"></i> Email
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Top Bar - Mobile (Very Compact) -->
+<div class="d-md-none" style="background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%); padding: 6px 0;">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <!-- Left: Quick Links -->
+            <div class="d-flex gap-2">
+                <a href="#" class="text-white text-decoration-none" style="font-size: 0.7rem;">
+                    <i class="fas fa-calendar-alt"></i>
+                </a>
+                <a href="#" class="text-white text-decoration-none" style="font-size: 0.7rem;">
+                    <i class="fas fa-file-alt"></i>
+                </a>
+                <a href="#" class="text-white text-decoration-none" style="font-size: 0.7rem;">
+                    <i class="fas fa-globe"></i>
+                </a>
+            </div>
+            
+            <!-- Center: Phone -->
+            <a href="tel:0717327632" class="text-white text-decoration-none d-flex align-items-center" style="font-size: 0.75rem;">
+                <i class="fas fa-phone-alt me-1 text-warning"></i>
+                <span>0717327632</span>
+            </a>
+            
+            <!-- Right: Email -->
+            <a href="mailto:staggreyhealth@gmail.com" class="text-white text-decoration-none" style="font-size: 0.7rem;">
+                <i class="fas fa-envelope text-warning"></i>
+            </a>
         </div>
     </div>
 </div>
