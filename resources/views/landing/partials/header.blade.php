@@ -79,23 +79,41 @@
     <div class="container py-2 py-md-3">
         <div class="row align-items-center justify-content-between">
             
-            <!-- Mobile: Hamburger + Compact Logo -->
-            <div class="col-12 d-lg-none mb-2">
-                <div class="d-flex align-items-center justify-content-between">
-                    <!-- Mobile Menu Button -->
-                    <button class="btn btn-link text-decoration-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar" aria-controls="mobileSidebar" style="color: #1e3a8a;">
-                        <i class="fas fa-bars fa-lg"></i>
-                    </button>
-                    
-                    <!-- Mobile Compact Title -->
-                    <div class="text-center flex-grow-1 px-2">
-                        <div style="color: #dc2626; font-weight: 700; font-size: 0.65rem; letter-spacing: 1px;">TANZANIA</div>
-                        <div style="color: #1e3a8a; font-weight: 700; font-size: 0.8rem;">SACHS</div>
-                        <div style="color: #6b7280; font-size: 0.6rem;">REG/HAS/116</div>
+            <!-- Mobile: Government Title + Emblem (Like EMaS Design) -->
+            <div class="col-12 d-lg-none">
+                <!-- Row 1: Government Title & Emblem -->
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                    <!-- Left: SACHS Logo -->
+                    <div class="d-flex align-items-center">
+                        <div style="width: 45px; height: 45px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-user-md text-white" style="font-size: 1.5rem;"></i>
+                        </div>
                     </div>
                     
-                    <!-- Mobile Emblem -->
-                    <img src="{{ asset('emblem.png') }}" alt="Tanzania" style="height: 45px; width: auto;">
+                    <!-- Center: Government Title -->
+                    <div class="text-center flex-grow-1 px-2">
+                        <div style="color: #dc2626; font-weight: 700; font-size: 0.7rem; letter-spacing: 1px;">JAMHURI YA MUUNGANO WA TANZANIA</div>
+                        <div style="color: #4b5563; font-weight: 600; font-size: 0.65rem;">WIZARA YA AFYA</div>
+                        <div style="color: #1e3a8a; font-weight: 800; font-size: 0.85rem; margin-top: 2px;">ST. AGGREY COLLEGE</div>
+                        <div style="color: #1e3a8a; font-weight: 800; font-size: 0.85rem;">OF HEALTH SCIENCES</div>
+                    </div>
+                    
+                    <!-- Right: Emblem -->
+                    <img src="{{ asset('emblem.png') }}" alt="Tanzania" style="height: 50px; width: auto;">
+                </div>
+                
+                <!-- Row 2: Hamburger Menu Bar -->
+                <div class="d-flex align-items-center" style="background: #f8fafc; margin: 0 -12px; padding: 8px 12px; border-top: 1px solid #e5e7eb;">
+                    <button class="btn btn-link text-decoration-none p-0 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar" aria-controls="mobileSidebar" style="color: #1e3a8a;">
+                        <div style="background: #1e3a8a; padding: 8px 10px; border-radius: 4px;">
+                            <i class="fas fa-bars text-white"></i>
+                        </div>
+                        <span class="ms-2 fw-bold" style="color: #1e3a8a; font-size: 0.9rem;">MENU</span>
+                    </button>
+                    
+                    <div class="ms-auto">
+                        <span class="badge" style="background: #f59e0b; color: #1e3a8a; font-size: 0.7rem;">REG/HAS/116</span>
+                    </div>
                 </div>
             </div>
             
