@@ -29,6 +29,43 @@
     </div>
 </div>
 
+<!-- Government Header Section with Emblem -->
+<div class="gov-header py-3" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); border-bottom: 3px solid #f59e0b;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Logo -->
+            <div class="col-lg-3 col-md-4 mb-3 mb-md-0">
+                <a href="{{ route('landing.home') }}" class="d-flex align-items-center text-decoration-none">
+                    <div class="logo-icon me-3" style="width: 70px; height: 70px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 20px -5px rgba(30, 58, 138, 0.3);">
+                        <i class="fas fa-graduation-cap text-white fa-2x"></i>
+                    </div>
+                    <div>
+                        <h4 class="mb-0 fw-bold" style="color: #1e3a8a;">SACHS</h4>
+                        <small class="text-muted d-block" style="font-size: 0.7rem;">St. Aggrey College</small>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Center Text -->
+            <div class="col-lg-6 col-md-8 text-center mb-3 mb-lg-0">
+                <div class="gov-title">
+                    <h6 class="mb-1" style="color: #dc2626; font-weight: 600; font-size: 0.85rem; letter-spacing: 1px;">UNITED REPUBLIC OF TANZANIA</h6>
+                    <p class="mb-0 small" style="color: #4b5563; font-weight: 500;">Ministry of Health</p>
+                    <h5 class="mb-0 mt-1" style="color: #1e3a8a; font-weight: 700;">ST. AGGREY COLLEGE OF HEALTH SCIENCES</h5>
+                    <small class="text-muted">Registration No: REG/HAS/116 | P.O. Box 2954, Mbeya - Tanzania</small>
+                </div>
+            </div>
+            
+            <!-- Coat of Arms - Tanzania Emblem -->
+            <div class="col-lg-3 text-lg-end text-center">
+                <img src="{{ asset('emblem.png') }}" 
+                     alt="Tanzania Coat of Arms" 
+                     style="height: 90px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));">
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Main Navigation - ATC Style -->
 <nav id="navbar" class="navbar navbar-expand-lg" style="background: linear-gradient(90deg, #1e3a8a 0%, #1e40af 100%); padding: 0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
     <div class="container d-flex align-items-center justify-content-center">
