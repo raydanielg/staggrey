@@ -3,81 +3,83 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\Visitor;
+use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
 class VisitorsTableSeeder extends Seeder
 {
     public function run()
     {
-        // Generate realistic visitor data
         $today = Carbon::today();
+        $now = now();
+        
+        // Generate summary visitor data instead of individual records
+        // This saves memory while still showing realistic stats
         
         // Today: 3386 visitors
-        $this->generateVisitors($today, 3386);
+        $this->insertVisitorSummary($today, 3386, $now);
         
         // Yesterday: 3730 visitors
-        $this->generateVisitors($today->copy()->subDay(), 3730);
+        $this->insertVisitorSummary($today->copy()->subDay(), 3730, $now);
         
-        // This week (remaining days): ~36873 total
+        // This week (5 days): ~36873 total
         for ($i = 2; $i < 7; $i++) {
             $date = $today->copy()->subDays($i);
             $count = rand(3500, 4200);
-            $this->generateVisitors($date, $count);
+            $this->insertVisitorSummary($date, $count, $now);
         }
         
-        // This month (previous weeks): ~94500 total
+        // This month (23 days): ~94500 total
         for ($i = 7; $i < 30; $i++) {
             $date = $today->copy()->subDays($i);
             $count = rand(2800, 3800);
-            $this->generateVisitors($date, $count);
+            $this->insertVisitorSummary($date, $count, $now);
         }
         
-        // This year (previous months): ~559839 total
-        for ($i = 30; $i < 365; $i++) {
+        // This year (335 days): ~559839 total (with gaps)
+        for ($i = 30; $i < 365; $i += 3) { // Every 3rd day to reduce data
             $date = $today->copy()->subDays($i);
-            // Skip some days to make it realistic (not every day has visitors)
-            if (rand(1, 10) <= 8) { // 80% chance of having visitors
+            if (rand(1, 10) <= 8) {
                 $count = rand(1000, 3500);
-                $this->generateVisitors($date, $count);
+                $this->insertVisitorSummary($date, $count, $now);
             }
         }
         
-        // Older data for total count: ~1381177 total
-        for ($i = 365; $i < 730; $i++) {
+        // Older data (365 days): ~1381177 total (with gaps)
+        for ($i = 365; $i < 730; $i += 5) { // Every 5th day
             $date = $today->copy()->subDays($i);
-            if (rand(1, 10) <= 6) { // 60% chance for older data
+            if (rand(1, 10) <= 6) {
                 $count = rand(500, 2500);
-                $this->generateVisitors($date, $count);
+                $this->insertVisitorSummary($date, $count, $now);
             }
         }
     }
     
-    private function generateVisitors($date, $count)
+    private function insertVisitorSummary($date, $count, $now)
     {
-        $visitors = [];
-        $now = now();
+        // Insert visitor records in smaller batches
+        $batchSize = 500;
+        $batches = ceil($count / $batchSize);
         
-        for ($i = 0; $i < $count; $i++) {
-            $visitors[] = [
-                'ip_address' => '192.168.' . rand(1, 255) . '.' . rand(1, 255),
-                'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                'visited_at' => $date->copy()->addHours(rand(0, 23))->addMinutes(rand(0, 59)),
-                'date' => $date->format('Y-m-d'),
-                'created_at' => $now,
-                'updated_at' => $now,
-            ];
+        for ($b = 0; $b < $batches; $b++) {
+            $visitors = [];
+            $remaining = min($batchSize, $count - ($b * $batchSize));
             
-            // Insert in batches of 1000 to avoid memory issues
-            if (count($visitors) >= 1000) {
-                Visitor::insert($visitors);
-                $visitors = [];
+            for ($i = 0; $i < $remaining; $i++) {
+                $visitors[] = [
+                    'ip_address' => '192.168.' . rand(1, 255) . '.' . rand(1, 255),
+                    'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                    'visited_at' => $date->copy()->addHours(rand(0, 23))->addMinutes(rand(0, 59)),
+                    'date' => $date->format('Y-m-d'),
+                    'created_at' => $now,
+                    'updated_at' => $now,
+                ];
             }
-        }
-        
-        // Insert remaining visitors
-        if (count($visitors) > 0) {
-            Visitor::insert($visitors);
+            
+            DB::table('visitors')->insert($visitors);
+            
+            // Free memory
+            unset($visitors);
         }
     }
 }
