@@ -276,16 +276,9 @@
                 </a>
             </li>
             
-            <!-- Mobile Toggle -->
-            <li class="nav-item d-lg-none ms-auto">
-                <button class="btn btn-link text-white p-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav">
-                    <i class="fas fa-bars fa-lg"></i>
-                </button>
-            </li>
         </ul>
     </div>
-    
-    </nav>
+</nav>
 
 <!-- Mobile Sidebar Offcanvas -->
 <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="mobileSidebar" aria-labelledby="mobileSidebarLabel" style="width: 300px; background: linear-gradient(180deg, #1e3a8a 0%, #1e40af 100%);">
