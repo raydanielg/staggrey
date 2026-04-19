@@ -29,39 +29,54 @@
     </div>
 </div>
 
-<!-- Government Header Section with Emblem -->
-<div class="gov-header py-3" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); border-bottom: 3px solid #f59e0b;">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Logo -->
-            <div class="col-lg-3 col-md-4 mb-3 mb-md-0">
-                <a href="{{ route('landing.home') }}" class="d-flex align-items-center text-decoration-none">
-                    <div class="logo-icon me-3" style="width: 70px; height: 70px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 20px -5px rgba(30, 58, 138, 0.3);">
-                        <i class="fas fa-graduation-cap text-white fa-2x"></i>
-                    </div>
-                    <div>
-                        <h4 class="mb-0 fw-bold" style="color: #1e3a8a;">SACHS</h4>
-                        <small class="text-muted d-block" style="font-size: 0.7rem;">St. Aggrey College</small>
+<!-- Government Header Section - Clean Layout -->
+<div class="gov-header" style="background: #ffffff; border-bottom: 4px solid #f59e0b;">
+    <div class="container py-3">
+        <div class="row align-items-center justify-content-between">
+            
+            <!-- Left: SACHS Logo -->
+            <div class="col-lg-2 col-md-3 col-sm-4 text-center text-md-start mb-2 mb-md-0">
+                <a href="{{ route('landing.home') }}" class="text-decoration-none d-inline-block">
+                    <div class="d-flex flex-column align-items-center align-items-md-start">
+                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 16px rgba(30, 58, 138, 0.3);">
+                            <i class="fas fa-user-md text-white" style="font-size: 2.5rem;"></i>
+                        </div>
+                        <div class="mt-2 text-center text-md-start">
+                            <h5 class="mb-0 fw-bold" style="color: #1e3a8a; font-size: 1.3rem; letter-spacing: 1px;">SACHS</h5>
+                            <small class="text-muted" style="font-size: 0.7rem;">St. Aggrey College</small>
+                        </div>
                     </div>
                 </a>
             </div>
             
-            <!-- Center Text -->
-            <div class="col-lg-6 col-md-8 text-center mb-3 mb-lg-0">
-                <div class="gov-title">
-                    <h6 class="mb-1" style="color: #dc2626; font-weight: 600; font-size: 0.85rem; letter-spacing: 1px;">UNITED REPUBLIC OF TANZANIA</h6>
-                    <p class="mb-0 small" style="color: #4b5563; font-weight: 500;">Ministry of Health</p>
-                    <h5 class="mb-0 mt-1" style="color: #1e3a8a; font-weight: 700;">ST. AGGREY COLLEGE OF HEALTH SCIENCES</h5>
-                    <small class="text-muted">Registration No: REG/HAS/116 | P.O. Box 2954, Mbeya - Tanzania</small>
+            <!-- Center: Government Title -->
+            <div class="col-lg-7 col-md-6 col-sm-12 text-center mb-2 mb-md-0">
+                <div class="gov-title" style="line-height: 1.4;">
+                    <div style="color: #dc2626; font-weight: 700; font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase;">
+                        UNITED REPUBLIC OF TANZANIA
+                    </div>
+                    <div style="color: #4b5563; font-weight: 600; font-size: 0.85rem; margin-top: 2px;">
+                        Ministry of Health
+                    </div>
+                    <div style="color: #1e3a8a; font-weight: 800; font-size: 1.3rem; margin-top: 8px; letter-spacing: 0.5px;">
+                        ST. AGGREY COLLEGE OF HEALTH SCIENCES
+                    </div>
+                    <div style="color: #6b7280; font-size: 0.75rem; margin-top: 5px;">
+                        <span style="color: #f59e0b; font-weight: 600;">Registration No: REG/HAS/116</span> | P.O. Box 2954, Mbeya - Tanzania
+                    </div>
                 </div>
             </div>
             
-            <!-- Coat of Arms - Tanzania Emblem -->
-            <div class="col-lg-3 text-lg-end text-center">
-                <img src="{{ asset('emblem.png') }}" 
-                     alt="Tanzania Coat of Arms" 
-                     style="height: 90px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));">
+            <!-- Right: Coat of Arms -->
+            <div class="col-lg-2 col-md-3 col-sm-4 text-center text-md-end">
+                <div class="d-flex flex-column align-items-center align-items-md-end">
+                    <img src="{{ asset('emblem.png') }}" 
+                         alt="Tanzania Coat of Arms" 
+                         style="height: 100px; width: auto; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));">
+                    <small class="mt-1 text-muted" style="font-size: 0.65rem;">Tanzania Emblem</small>
+                </div>
             </div>
+            
         </div>
     </div>
 </div>
