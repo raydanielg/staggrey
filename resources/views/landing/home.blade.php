@@ -259,13 +259,14 @@
         </div>
     </section>
 
-    <!-- Why Choose Us -->
+    <!-- Why Choose SACHS -->
     <section class="py-5" style="background: #f8fafc;">
         <div class="container py-5">
             <div class="text-center" data-aos="fade-up">
                 <div class="section-title">
-                    <h2>Why Choose SACA?</h2>
+                    <h2>Why Choose SACHS?</h2>
                 </div>
+                <p class="text-muted">Excellence in Healthcare Education</p>
             </div>
             
             <div class="row g-4 mt-3">
@@ -276,8 +277,8 @@
                                 <i class="fas fa-certificate fa-2x" style="color: #1e3a8a;"></i>
                             </div>
                         </div>
-                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Accredited Programs</h5>
-                        <p class="text-muted mb-0">All our programs are fully accredited and recognized by the relevant education authorities in Tanzania.</p>
+                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Full Registration</h5>
+                        <p class="text-muted mb-0">Registered by NACTE with Registration No: REG/HAS/116. Our programs are fully accredited and recognized by the Ministry of Health.</p>
                     </div>
                 </div>
                 
@@ -285,11 +286,11 @@
                     <div class="card h-100 border-0 shadow-sm p-4 card-hover" style="border-radius: 15px;">
                         <div class="mb-3">
                             <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center;">
-                                <i class="fas fa-chalkboard-teacher fa-2x" style="color: #d97706;"></i>
+                                <i class="fas fa-hospital fa-2x" style="color: #d97706;"></i>
                             </div>
                         </div>
-                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Expert Faculty</h5>
-                        <p class="text-muted mb-0">Learn from experienced lecturers with industry experience and advanced academic qualifications.</p>
+                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Clinical Training</h5>
+                        <p class="text-muted mb-0">Hands-on training at our Clinical Skills Centre and partnerships with major hospitals in Mbeya for practical experience.</p>
                     </div>
                 </div>
                 
@@ -297,11 +298,11 @@
                     <div class="card h-100 border-0 shadow-sm p-4 card-hover" style="border-radius: 15px;">
                         <div class="mb-3">
                             <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center;">
-                                <i class="fas fa-briefcase fa-2x" style="color: #059669;"></i>
+                                <i class="fas fa-flask fa-2x" style="color: #059669;"></i>
                             </div>
                         </div>
-                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Industry Connections</h5>
-                        <p class="text-muted mb-0">Strong partnerships with local businesses for internships, practical training, and job placements.</p>
+                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Modern Labs</h5>
+                        <p class="text-muted mb-0">State-of-the-art medical laboratory equipment and simulation facilities for practical learning experiences.</p>
                     </div>
                 </div>
                 
@@ -309,11 +310,11 @@
                     <div class="card h-100 border-0 shadow-sm p-4 card-hover" style="border-radius: 15px;">
                         <div class="mb-3">
                             <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center;">
-                                <i class="fas fa-laptop fa-2x" style="color: #db2777;"></i>
+                                <i class="fas fa-user-md fa-2x" style="color: #db2777;"></i>
                             </div>
                         </div>
-                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Modern Facilities</h5>
-                        <p class="text-muted mb-0">State-of-the-art computer labs, library with digital resources, and comfortable learning spaces.</p>
+                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Expert Faculty</h5>
+                        <p class="text-muted mb-0">Learn from qualified healthcare professionals with extensive clinical and teaching experience.</p>
                     </div>
                 </div>
                 
@@ -321,11 +322,11 @@
                     <div class="card h-100 border-0 shadow-sm p-4 card-hover" style="border-radius: 15px;">
                         <div class="mb-3">
                             <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center;">
-                                <i class="fas fa-dollar-sign fa-2x" style="color: #4f46e5;"></i>
+                                <i class="fas fa-graduation-cap fa-2x" style="color: #4f46e5;"></i>
                             </div>
                         </div>
-                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Affordable Fees</h5>
-                        <p class="text-muted mb-0">Quality education at competitive rates with flexible payment options for all students.</p>
+                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">NTA 4-6 Programs</h5>
+                        <p class="text-muted mb-0">All our diploma programs are at NTA Level 4-6, preparing you for professional registration and employment.</p>
                     </div>
                 </div>
                 
@@ -333,11 +334,11 @@
                     <div class="card h-100 border-0 shadow-sm p-4 card-hover" style="border-radius: 15px;">
                         <div class="mb-3">
                             <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center;">
-                                <i class="fas fa-users fa-2x" style="color: #c2410c;"></i>
+                                <i class="fas fa-briefcase-medical fa-2x" style="color: #c2410c;"></i>
                             </div>
                         </div>
-                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Vibrant Community</h5>
-                        <p class="text-muted mb-0">Join a diverse community of learners with cultural events, sports, and student organizations.</p>
+                        <h5 class="fw-bold mb-3" style="color: #1e3a8a;">Job Placement</h5>
+                        <p class="text-muted mb-0">Strong partnerships with healthcare facilities for internships and employment opportunities after graduation.</p>
                     </div>
                 </div>
             </div>
